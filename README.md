@@ -192,3 +192,79 @@ Ingeniería de Software
           -Debilidades: Dependencia de la calidad de los datos de terceros y marca aún en etapa de crecimiento.  
           -Oportunidades: Evolución hacia servicios de analítica de datos para aseguradoras internacionales.  
           -Amenazas: Aparición de módulos de IA integrados nativamente en plataformas globales como Wialon.
+## 2.2. Entrevistas.
+### 2.2.1. Diseño de entrevistas
+**Primer segmento: Personas naturales**
+A continuación, se presentan las preguntas dirigidas al segmento de personas naturales, compuesto por individuos que buscan proteger su vehículo, conocer su ubicación en tiempo real y recibir alertas básicas de seguridad mediante una solución tecnológica como GOD’s Tracker.
+
+**Preguntas principales**
+1.	¿Te preocupa que puedan robar tu vehículo? ¿Por qué? 
+2.	¿Has tenido alguna experiencia con robo o intento de robo? 
+3.	¿Qué haces actualmente para proteger tu vehículo? 
+4.	¿Te gustaría saber en todo momento dónde está tu vehículo? 
+5.	¿Qué tan útil sería para ti recibir alertas en tu celular si algo pasa con tu vehículo? 
+6.	¿Qué tipo de alertas te gustaría recibir? (movimiento, robo, ubicación, etc.) 
+7.	¿Qué tan fácil te gustaría que sea usar una app para ver tu vehículo? 
+8.	¿Confiarías en un sistema que usa GPS para rastrear tu vehículo? ¿Por qué? 
+9.	¿Qué es lo más importante para ti en un sistema de seguridad vehicular? 
+10.	¿Qué te haría sentir más seguro usando este tipo de producto? 
+11.	¿Usarías una aplicación para controlar tu vehículo desde el celular? 
+12.	¿Recomendarías un sistema así a otras personas?
+
+**Preguntas complementarias**
+13.	¿Qué edad tienes? 
+14.	¿A qué te dedicas? 
+15.	¿Qué tipo de vehículo tienes? 
+16.	¿En qué distrito vives o sueles moverte más? 
+17.	¿Qué tanto usas aplicaciones en tu celular? 
+18.	¿Prefieres usar más el celular o la computadora?
+
+**Segundo segmento: Empresas**
+A continuación, se presentan las preguntas dirigidas al segmento empresarial, compuesto por empresas de transporte, logística y otros sectores que requieren monitoreo, control y análisis avanzado de sus flotas vehiculares.
+
+**Preguntas principales**
+1.	¿Les preocupa la seguridad de sus vehículos o carga? 
+2.	¿Han tenido problemas de robos o pérdidas? 
+3.	¿Cómo hacen actualmente para saber dónde están sus vehículos? 
+4.	¿Les gustaría ver la ubicación de todos sus vehículos en tiempo real? 
+5.	¿Qué tan útil sería recibir alertas si un vehículo sale de ruta o se detiene mucho tiempo? 
+6.	¿Qué tipo de información necesitan sobre sus vehículos (ubicación, rutas, paradas)? 
+7.	¿Les ayudaría tener reportes automáticos sobre el uso de sus vehículos? 
+8.	¿Qué tan fácil debería ser usar una plataforma de monitoreo para su equipo? 
+9.	¿Qué es lo más importante en un sistema como este? 
+10.	¿Usarían una sola plataforma para controlar toda su flota? 
+11.	¿Qué problemas les gustaría solucionar con una herramienta como esta? 
+12.	¿Recomendarían este tipo de solución a otras empresas?
+    
+**Preguntas complementarias**
+13.	¿A qué se dedica su empresa? 
+14.	¿Cuántos vehículos manejan aproximadamente? 
+15.	¿Cuál es su cargo dentro de la empresa? 
+16.	¿En qué ciudades o zonas operan? 
+17.	¿Qué herramientas digitales usan actualmente? 
+18.	¿Qué tan seguido usan computadoras o apps para el trabajo? 
+
+**Tercer segmento: Organismos gubernamentales**
+A continuación, se presentan las preguntas dirigidas al segmento de organismos gubernamentales, compuesto por entidades del Estado como fuerzas policiales y organismos del Ministerio del Interior, interesados en la seguridad, monitoreo y gestión eficiente de activos vehiculares.
+
+**Preguntas principales**
+1.	¿Les preocupa la seguridad de sus vehículos o unidades? 
+2.	¿Qué problemas han tenido con el control de sus vehículos? 
+3.	¿Les gustaría saber en tiempo real dónde están todas sus unidades? 
+4.	¿Qué tan útil sería recibir alertas si un vehículo se mueve sin autorización? 
+5.	¿Qué tipo de alertas les ayudarían más en su trabajo? 
+6.	¿Qué información necesitan para tomar decisiones rápidas en campo? 
+7.	¿Les ayudaría tener todo el monitoreo en una sola plataforma? 
+8.	¿Qué tan importante es que el sistema sea fácil de usar? 
+9.	¿Qué es lo más importante en una solución de este tipo? 
+10.	¿Les daría más confianza un sistema seguro que proteja bien la información? 
+11.	¿Qué problemas actuales les gustaría resolver con una herramienta como esta? 
+12.	¿Usarían una solución como GOD’s Tracker en su institución?
+
+**Preguntas complementarias**
+13.	¿En qué institución trabaja? 
+14.	¿Cuál es su cargo? 
+15.	¿Qué tipo de vehículos o unidades manejan? 
+16.	¿En qué zona realizan sus operaciones? 
+17.	¿Qué herramientas tecnológicas usan actualmente? 
+18.	¿Qué tan familiarizado está con el uso de apps o sistemas digitales?
