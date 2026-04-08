@@ -66,10 +66,20 @@ Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
+###  1.1.1. Descripción de la Startup
+En una ciudad como Lima,  donde la inseguridad ciudadana y el robo de vehículos son problemas críticos que afectan la tranquilidad y el patrimonio de miles de personas, la protección convencional ya no es suficiente. Frente a esta realidad surge GuardiAnts, una startup impulsada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Reconocemos que la falta de control en tiempo real y la ausencia de datos precisos generan vulnerabilidad tanto en usuarios particulares como en empresas que dependen de su logística diaria. A través de nuestra plataforma de Telemetría e IoT, conectamos directamente al propietario con su activo en tiempo real. No nos limitamos al rastreo, sino que convertimos cada unidad en un centro de datos inteligente capaz de defenderse solo, optimizar sus rutas y analizar el comportamiento de manejo para maximizar la rentabilidad operativa. En GuardiAnts, trabajamos con la precisión y agilidad de un hormiguero organizado para que tú recuperes el control total. Protegemos tu inversión, potenciamos tu eficiencia.
 
-1.1.1. Descripción de la Startup
-En **GuardiAnts** trabajamos para proteger lo que más quieres. Somos una startup ágil e innovadora de seguridad satelital y telemetría vehicular, enfocada en usar la tecnología para desplegar soluciones rápidas y enfocadas en encontrar tus vehículos y obtener analíticas avanzadas usando Internet de las cosas. 
-Bienvenid@ al hormiguero, donde trabajamos para tu seguridad.
+**Misión:**
+
+**Visión:**
+
+**Valores:**
+
+<div align="center">
+  <img src="https://i.postimg.cc/d1jFXhfx/image(1).png'" width="20%">
+</div>
+
+<br>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 - ![fasfa](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZgWnkQmogCpq9bl6XEaB6CVhds8mXrWyoQ&s)
