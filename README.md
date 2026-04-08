@@ -37,6 +37,8 @@
 
 <div style="font-weight: bold;"> Abril, 2026</div>
 
+</div>
+
 ## Registro de Versiones del Informe
 
 | Versión | Fecha    | Autor       | Descripción de Modificación            |
@@ -46,7 +48,7 @@
 | 0.1    | 00/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
 | 0.1    | 00/04/26 | Manosalva Tovar, Miroslav Oscar | Desarrollo de la Estructura del informe|
 
-</div>
+
 
 ## Project Report Collaboration Insights
 
