@@ -52,31 +52,113 @@
 
 ## Project Report Collaboration Insights
 
-Contenido
-Tabla de contenidos
-Student Outcome
+| URL de la organización del proyecto | URL del repositorio del reporte   |
+| :------------------: | :---------------------------: | 
+|  |  |
 
-Capítulo I: Introducción
-1.1. Startup Profile
-1.1.1. Descripción de la Startup
-1.1.2. Perfiles de integrantes del equipo
-1.2. Solution Profile
-1.2.1 Antecedentes y problemática
-1.2.2 Lean UX Process.
-1.2.2.1. Lean UX Problem Statements.
-1.2.2.2. Lean UX Assumptions.
-1.2.2.3. Lean UX Hypothesis Statements.
-1.2.2.4. Lean UX Canvas.
-1.3. Segmentos objetivo.
-.....
+| URL del repositorio de la landing page |
+| :----------------------------: | 
+|  | 
 
 
 
+**URL LANDING PAGE DESPLEGADO**:
+
+
+Commits del Report:
+
+## CONTENIDO
+
+### Tabla de contenido
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint n](#521-sprint-n)
+      - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 
 
-
-
+# **Student Outcomes**
 
 
 
@@ -89,7 +171,7 @@ En una ciudad como Lima,  donde la inseguridad ciudadana y el robo de vehículos
 
 **Misión:** Nuestra misión es transformar la seguridad vehicular mediante un sistema de monitoreo inteligente y telemetría avanzada, permitiendo que nuestros segmentos objetivos recuperen el control absoluto de sus unidades en tiempo real. Estamos comprometidos con resguardar el patrimonio de nuestros usuarios y potenciar la rentabilidad de sus activos, eliminando la incertidumbre mediante respuestas inmediatas y analíticas personalizadas que convierten a cada vehículo en una entidad protegida y eficiente.
 
-**Visión:**
+**Visión:** Nuestra visión es consolidarnos como la plataforma líder en seguridad vehicular y gestión inteligente de activos mediante telemetría e IoT elevando el estándar de protección frente a la delincuencia tecnificada. Asimismo, aspiramos a que cada vehículo conectado a GuardiAnts opere como un sistema inteligente y autónomo capaz de anticipar riesgos, detectar interferencias, activar protocolos de resguardo y mantener al propietario o administrador siempre en control desde cualquier lugar. Con nuestro producto buscamos construir un ecosistema confiable, seguro y de alta disponibilidad que no solo incremente la recuperación y prevención de robos, sino que también impulse una movilidad más eficiente y rentable para personas y empresas convirtiendo los datos en decisiones rápidas, claras y accionables en tiempo real.
 
 
 
@@ -222,19 +304,39 @@ Debe tener una interfaz limpia y profesional que facilite la lectura rápida baj
 
 #### 1.2.2.4. Lean UX Canvas
 
+- [![LeanUxCanvas.png](https://i.postimg.cc/J4TpzPLr/Lean-UX-Canvas.png)](https://postimg.cc/bstx60rW)
 
 ## 1.3. Segmentos objetivos
 **Segmento #1: Personas naturales** <br>
 Personas naturales que quieren proteger su vehículo, recibir alertas básicas y conocer la ubicación del vehículo en tiempo real.
 - Aspectos demográficos:
+   - Sexo: Masculino y femenino.
+   - Edades: Entre 25 y 65 años.
+   - Ubicación: Residentes de zonas urbanas con altos índices de robo vehicular en Lima Metropolitana.
+- Aspectos psicográficos:
+   - Motivaciones: Recuperar la sensación de seguridad, proteger su inversión económica, evitar la pérdida total del vehículo y garantizar asistencia inmediata ante emergencias.
+   - Intereses: Seguridad inteligente, tecnología IoT, protección patrimonial y herramientas de monitoreo preventivo.
+   - Comportamiento: Valoran soluciones que ofrezcan respuesta activa más que solo rastreo. Investigan dispositivos de seguridad, comparan planes de protección y prefieren aplicaciones móviles intuitivas que les permitan actuar rápidamente (bloqueo remoto) ante una alerta.
 
 **Segmento #2: Empresas** <br>
 Empresas de todos los sectores, especialmente los de transporte de carga pesada, empresas de logística, así como de transporte público, para un análisis más avanzado. 
 - Aspectos demográficos:
+  - Tipo de negocio: Micro, pequeñas y medianas empresas de logística, transporte de carga pesada, delivery y transporte de personal.
+  - Ubicación: Empresas con almacenes o centros de despacho ubicados en zonas estratégicas de Lima Metropolitana
+- Aspectos psicográficos:
+  - Motivaciones: Reducir costos operativos (combustible y mantenimiento), prevenir el robo de mercadería, mejorar los tiempos de entrega y garantizar la seguridad de sus conductores.
+  - Intereses: Telemetría avanzada, eficiencia operativa, optimización de rutas, innovación tecnológica y sostenibilidad del negocio.
+  - Comportamiento: Buscan un software centralizado que les permita controlar todos sus vehículos desde una sola pantalla. Priorizan herramientas que generen reportes automáticos sobre cómo conducen sus choferes y que faciliten una respuesta rápida si un camión se sale de su ruta permitida o si alguien intenta manipular el GPS.
 
 **Segmento #3: Organismos Gubernamentales** <br> 
 Organismos del estado como la policía y otros interesados del Ministerio del interior para proteger los activos y personas de manera segura y confiable. Se considera la ubicación de los servidores para ese segmento en sus ubicaciones designadas.
 - Aspectos demográficos:
+  - Tipo de entidad: Policía Nacional, Ministerios (MININTER), municipalidades (Serenazgo) y entidades de respuesta a emergencias.
+  - Ubicación: Jurisdicciones distritales, regionales y nacionales que requieren servidores en ubicaciones designadas.
+- Aspectos psicográficos:
+  - Motivaciones: Reducir los índices de criminalidad, mejorar la tasa de recuperación de vehículos robados y contar con datos precisos para inteligencia criminal.
+  - Intereses: Seguridad y privacidad de la información, control absoluto sobre el almacenamiento de los datos en servidores locales, comunicación fluida entre diferentes unidades de vigilancia y la digitalización de sus procesos de seguridad ciudadana.
+  - Comportamiento: Priorizan la seguridad de la información y la estabilidad de los sistemas. Prefieren soluciones que se integren con sus centros de monitoreo existentes y que permitan la gestión masiva de datos en tiempo real bajo estrictos protocolos de acceso.
   
 
 # Capítulo II: Requirements Elicitation & Analysis
