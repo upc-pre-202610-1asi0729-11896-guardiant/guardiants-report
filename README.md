@@ -46,7 +46,7 @@
 | 0.1     | 07/04/26 | Poma Muñoz, Ariadna Geraldine    | Desarrollo de la Estructura del informe |
 | 0.1    | 00/04/26 | Navarro Aldoradin, Carolina Celeste | Desarrollo de la Estructura del informe|
 | 0.1    | 00/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
-| 0.1    | 00/04/26 | Manosalva Tovar, Miroslav Oscar | Desarrollo de la Estructura del informe|
+| 0.1    | 00/04/26 | Vite Celis, Rodrigo Matias | Desarrollo de la Estructura del informe|
 
 
 
@@ -197,6 +197,10 @@ Ingeniería de Software
 - <img width="234" height="250" alt="image" src="https://github.com/user-attachments/assets/29f5178a-4567-4093-8f58-be5d351aadd4" />
 <div style="font-weight: bold">Fabricio Jofred Lozano Quispe</div> u202412903 | Ingeniería de Software <br>
 <div style="font-style: italic"> Estudio la carrera de Ingeniería de Software, tengo 19 años. Me considero una persona responsable, persistente y con una gran disposición por aprender constantemente. Hasta el momento he aprendido C++, Java y he fortalecido mi lógica de programación, lo que ha despertado aún más mi interés por la programación. Me motiva seguir aprendiendo y desarrollando mis habilidades, con el propósito de crear una idea innovadora que me permita crecer como persona y profesional. Siempre busco dar lo mejor de mí en cada tarea que realizo y me gusta enfrentar retos, porque me ayudan a desarrollarme tanto en el ámbito académico como en el personal. En mis tiempos libres practico fútbol, un deporte que me gusta mucho.</div> <br>
+
+- <img width="234" height="250" alt="image" src="https://github.com/user-attachments/assets/127f62d1-99b3-4dfb-8baa-df9c6642972d" />
+<div style="font-weight: bold">Rodrigo Matias Vite Celis</div> u202412903 | Ingeniería de Software <br>
+<div style="font-style: italic"> Estudio la carrera de Ingeniería de Software, tengo 18 años. Me destaco por mi disciplina y compromiso tanto en el estudio como en el deporte, lo que me ha enseñado a ser constante y trabajar con enfoque. Me gusta aprender de manera práctica y resolver problemas aplicando pensamiento lógico. Tengo conocimientos en programación orientada a objetos, estructuras de datos, algoritmos, y estoy familiarizado con metodologías ágiles como Scrum. Además, me esfuerzo por mejorar continuamente mi desempeño académico y mis habilidades sociales</div> <br>
 
 - Inserte foto 3
 - Inserte foto 4
