@@ -555,3 +555,117 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 |  |  | 
 |  |  | 
 |  |  | 
+
+
+# Capítulo III: Requirements Specifications
+### 3.1 To-Be Scenario Mapping
+
+>Segmento 1: Persona Natural
+
+>Segmento 2: Empresas
+
+>Segmento 3: Organismos Gubernamentales
+
+## 3.2. User Stories
+
+## 3.3. Impact Mapping
+El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.
+
+## 3.4. Product Backlog
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+Una Style Guidelines es un conjunto de lineamientos y criterios que establecen la forma en que deben redactarse, diseñarse o presentar documentos, contenido web, software u otros tipos de trabajos creativos. A continuación, se describen las especificaciones de los parámetros aplicados en la estructura del proyecto.
+
+### 4.1.1. General Style Guidelines. 
+
+### 4.1.2. Web Style Guidelines
+
+## 4.2. Information Architecture
+
+### 4.2.1 Organization Systems. 
+
+### 4.2.2. Labeling Systems. 
+
+### 4.2.3. SEO Tags and Meta Tags 
+
+### 4.2.4. Searching Systems.
+
+### 4.2.5. Navigation Systems. 
+
+## 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe
+
+### 4.3.2. Landing Page Mock-up
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+### 4.4.3. Web Applications Mock-ups
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+## 4.5. Web Applications Prototyping
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Design-Level Event Storming
+
+### 4.6.2. Software Architecture Context Diagram
+
+### 4.6.3. Software Architecture Container Diagrams
+
+### 4.6.4. Software Architecture Components Diagrams
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagrams
+
+---
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+### 5.1.2. Source Code Management
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.4. Software Deployment Configuration
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.X. Sprint n
+
+#### 5.2.X.1. Sprint Planning n
+#### 5.2.X.2. Aspect Leaders and Collaborators
+#### 5.2.X.3. Sprint Backlog n
+#### 5.2.X.4. Development Evidence for Sprint Review
+#### 5.2.X.5. Execution Evidence for Sprint Review
+#### 5.2.X.6. Services Documentation Evidence for Sprint Review
+#### 5.2.X.7. Software Deployment Evidence for Sprint Review
+#### 5.2.X.8. Team Collaboration Insights during Sprint
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+### 5.3.2. Registro de Entrevistas
+
+### 5.3.3. Evaluaciones según heurísticas
+
+## 5.4. Video About-the-Product
+
+# Conclusiones 
+# Bibliografía
+# Anexos
