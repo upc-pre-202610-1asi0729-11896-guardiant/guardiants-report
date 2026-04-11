@@ -568,10 +568,53 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 ## 3.2. User Stories
 
+<table>
+    <thead>
+        <tr style="text-align:center">
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Criterios de aceptación</th>
+            <th>Épica</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="text-align:center">
+            <td>US01</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>EP01</td>
+        </tr>
+        <tr style="text-align:center">
+            <td>US02</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>EP02</td>
+        </tr>
+    </tbody>
+</table>
+
 ## 3.3. Impact Mapping
 El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.
 
+Impact Map - Segmento 1:
+
+Impact Map - Segmento 2:
+
+Impact Map - Segmento 3:
+
 ## 3.4. Product Backlog
+
+| #Orden | User Story Id | Título             | Descripción                                      | Story Points |
+|--------|---------------|--------------------|--------------------------------------------------|--------------|
+| 1      | US01          |     |      |             |
+| 2      | US02          |     |      |             |
+| 3      | US03          |     |      |             |
+
+
+
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
@@ -629,7 +672,6 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
 
 ### 4.8.1. Database Diagrams
 
----
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -645,16 +687,145 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-### 5.2.X. Sprint n
+### 5.2.1. Sprint 1
 
-#### 5.2.X.1. Sprint Planning n
-#### 5.2.X.2. Aspect Leaders and Collaborators
-#### 5.2.X.3. Sprint Backlog n
-#### 5.2.X.4. Development Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint
+#### 5.2.1.1. Sprint Planning 1
+
+<table>
+  <caption>Sprint #1</caption>
+  <thead>
+    <tr>
+      <th colspan="2">Sprint Planning Backlog</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fecha</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hora</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ubicación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Preparado por</td>
+      <td>Integrantes de </td>
+    </tr>
+    <tr>
+      <td>Asistentes (a la reunión de planificación)</td>
+      <td>Todos los miembros de </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Sprint 1 Review</strong>
+      </td>
+      <td>
+        .
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Sprint 1 Retrospective</strong>
+      </td>
+      <td>
+        .
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <strong>Sprint Goal and User Stories</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Sprint 1 Goal</strong>
+      </td>
+      <td>
+        .
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Sprint 1 Velocity</strong></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><strong>Sum of Story Points</strong></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.3. Sprint Backlog 1
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="1">US</td>
+       <td rowspan="1"></td>
+       <td>T01</td>
+       <td></td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    </tr>
+        <tr>
+       <td rowspan="1">US</td>
+       <td rowspan="1"></td>
+       <td>T02</td>
+       <td></td>
+       <td></td>
+       <td></td>
+    </tr>
+    <tr>
+       <td rowspan="1">US</td>
+       <td rowspan="1"></td>
+       <td>T03</td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td> </td>
+       <td></td>
+    </tr>
+</table>
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| |  |  |  |
+| |  |  |  |  |  |
+| |  |  |  |  |  |
+| |  |  |  |  |  |
+| |  |  |  |  |  |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
 
