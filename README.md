@@ -389,27 +389,27 @@ A continuación, se presentan las preguntas dirigidas al segmento de personas na
 A continuación, se presentan las preguntas dirigidas al segmento empresarial, compuesto por empresas de transporte, logística y otros sectores que requieren monitoreo, control y análisis avanzado de sus flotas vehiculares.
 
 **Preguntas principales**
-1.	¿Les preocupa la seguridad de sus vehículos o carga? 
-2.	¿Han tenido problemas de robos o pérdidas? 
-3.	¿Cómo hacen actualmente para saber dónde están sus vehículos? 
-4.	¿Les gustaría ver la ubicación de todos sus vehículos en tiempo real? 
-5.	¿Qué tan útil sería recibir alertas si un vehículo sale de ruta o se detiene mucho tiempo? 
-6.	¿Qué tipo de información necesitan sobre sus vehículos (ubicación, rutas, paradas)? 
-7.	¿Les ayudaría tener reportes automáticos sobre el uso de sus vehículos? 
-8.	¿Qué tan fácil debería ser usar una plataforma de monitoreo para su equipo? 
-9.	¿Qué es lo más importante en un sistema como este? 
-10.	¿Usarían una sola plataforma para controlar toda su flota? 
-11.	¿Qué problemas les gustaría solucionar con una herramienta como esta? 
-12.	¿Recomendarían este tipo de solución a otras empresas?
+1.	¿Te preocupa la seguridad de los vehículos o la carga con la que trabajas?
+2. ¿Has vivido o visto problemas de robos o pérdidas en el trabajo?
+3. ¿Cómo saben actualmente dónde están los vehículos durante el día?
+4. ¿Te gustaría poder ver la ubicación de los vehículos en tiempo real?
+5. ¿Qué tan útil sería recibir alertas si un vehículo se desvía o se detiene mucho tiempo?
+6. ¿Qué información te ayudaría más en tu trabajo sobre los vehículos?
+7. ¿Te serviría tener un historial de recorridos o rutas?
+8. ¿Qué tan fácil debería ser usar una app o sistema de monitoreo?
+9. ¿Qué es lo más importante para ti en un sistema de este tipo?
+10. ¿Te ayudaría tener todo el control en una sola plataforma?
+11. ¿Qué problemas te gustaría solucionar con una herramienta como esta?
+12. ¿Crees que un sistema así mejoraría tu trabajo o el de tu empresa?
     
 **Preguntas complementarias**
 
-13.	¿A qué se dedica su empresa? 
-14.	¿Cuántos vehículos manejan aproximadamente? 
-15.	¿Cuál es su cargo dentro de la empresa? 
-16.	¿En qué ciudades o zonas operan? 
-17.	¿Qué herramientas digitales usan actualmente? 
-18.	¿Qué tan seguido usan computadoras o apps para el trabajo? 
+13. ¿Cuál es tu puesto o función dentro de la empresa?
+14. ¿En qué tipo de empresa trabajas? (transporte, logística, etc.)
+15. ¿Trabajas directamente con vehículos? ¿Cómo?
+16. ¿En qué zonas sueles trabajar o movilizarte?
+17. ¿Qué herramientas o apps usas en tu trabajo actualmente?
+18. ¿Qué tan seguido usas celular o computadora en tu trabajo?
 
 **Tercer segmento: Organismos gubernamentales**
 
