@@ -650,7 +650,49 @@ La arquitectura de información de God's Tracker está diseñada para optimizar 
 
 ### 4.2.1 Organization Systems. 
 
+God's Tracker aplica distintos tipos de organización para gestionar la complejidad de los datos de telemetría y asegurar que la respuesta ante emergencias sea inmediata:
+
+**Organización jerárquica visual:** <br/>
+Para una navegación intuitiva, tanto para persona natural, empresas y organismos gubernamentales cuentan con accesos laterales clave en la pantalla principal. Las personas naturales disponen de "Estado en Vivo" para monitoreo GPS en tiempo real, "Alertas de Seguridad" para gestionar notificaciones críticas, "Historial de Rutas" para reconstrucción cronológica de recorridos y "Configuración del Dispositivo" para ejecutar el bloqueo remoto. Por otro lado, las empresas acceden a "Panel de Activos" para el control centralizado de la flota, "Analíticas de Rendimiento" para evaluar el consumo de combustible, "Gestión de Conductores" para monitorear comportamientos de manejo y "Reportes Operativos" para la descarga de métricas de rentabilidad. Finalmente, los organismos gubernamentales cuentan con "Mapa de Calor de Incidentes" para identificar zonas de alto riesgo criminal, "Unidades en Emergencia" para una respuesta táctica inmediata ante robos confirmados y "Centro de Coordinación" para la gestión interinstitucional y almacenamiento seguro de datos.
+
+**Organización secuencial:** <br>
+En la ejecución del protocolo de seguridad activa para usuarios, la secuencia comienza con la detección de una alerta de movimiento sospechoso, seguida por la validación de identidad del propietario y la selección del comando de acción, culminando con la confirmación del bloqueo remoto del motor. De manera similar, el registro de una nueva unidad por parte de las empresas sigue este orden: vinculación del ID del dispositivo IoT, configuración de los parámetros de telemetría, asignación de un conductor responsable y, finalmente, la activación del monitoreo en el panel centralizado.
+
+**Organización matricial:** <br>
+En la sección de analítica avanzada y reportes, los usuarios refinan la información mediante filtros combinables que permiten cruzar datos de distintas categorías. Por ejemplo, los administradores de flotas pueden filtrar simultáneamente por unidad vehicular, rango de fechas, comportamiento de manejo y consumo de combustible. Los resultados se actualizan dinámicamente en una cuadrícula interactiva, permitiendo identificar correlaciones directas entre el estilo de conducción y la eficiencia operativa del activo.
+
+**Sistemas de categorización:**
+
+- **Por tópicos:** Estado en vivo, alertas de seguridad, historial de rutas, gestión de activos, analíticas de rendimiento y protocolos de emergencia.
+
+- **Cronológica:** Registro de eventos por milisegundos y ordenamiento de reportes operativos según fechas específicas (día, semana o mes).
+
+- **Alfabética:** Búsqueda y ordenamiento por nombre del conductor, ID del dispositivo IoT, nombre de la sede logística o placa del vehículo.
+
+- **Por audiencia:** Se presentan interfaces diferenciadas para Personas Naturales (protección y bloqueo), Empresas (gestión de flotas) y Organismos Gubernamentales (gestión de incidentes).
+
 ### 4.2.2. Labeling Systems. 
+Para garantizar una experiencia intuitiva y sin confusiones, las etiquetas empleadas en God's Tracker han sido diseñadas con base en principios de simplicidad, claridad y consistencia técnica.
+
+**Etiquetas para la navegación principal (menú lateral):**
+
+* **Estado en vivo:** Acceso al monitoreo GPS y telemetría de las unidades en tiempo real.
+* **Alertas:** Sección dedicada a la gestión de notificaciones críticas y eventos de seguridad.
+* **Historial:** Espacio para la reconstrucción cronológica de rutas y eventos pasados.
+* **Panel de control:** Acceso a la configuración del dispositivo, gestión de usuarios y perfiles.
+
+**Etiquetas para acciones:**
+
+* **Bloquear motor:** Acción de seguridad de alta prioridad para inmovilizar la unidad de forma remota.
+* **Vincular dispositivo:** Entrada para registrar un nuevo hardware IoT mediante ID o código QR.
+* **Generar reporte:** Acción para extraer métricas de rendimiento o incidencias en formato PDF/Excel.
+* **Confirmar identidad:** Validación necesaria para ejecutar comandos críticos de seguridad.
+
+**Etiquetas asociativas para categorías:**
+
+* **Críticas, Preventivas, Informativas:** Categorías que agrupan las alertas según su nivel de urgencia.
+* **En ruta, Estacionado, Fuera de zona:** Estados operativos que agrupan las unidades según su actividad actual.
+* **Combustible, Velocidad, Conducción:** Agrupaciones de métricas para el análisis de rendimiento de flotas.
 
 ### 4.2.3. SEO Tags and Meta Tags 
 
