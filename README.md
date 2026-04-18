@@ -717,7 +717,16 @@ Se presentan las siguientes secciones:
 + Contact: Formulario básico para consultas técnicas o soporte, junto con información de contacto directa y ubicación.
 + Footer: Enlaces a redes sociales, información legal y accesos rápidos a secciones institucionales.
 
+
+<div align="center">
+<img src="images/WIREFRAMES_1.png">
+</div>
+
 ### 4.3.2. Landing Page Mock-up
+
+<div align="center">
+<img src="images/MOCKUP_1.png">
+</div>
 
 ## 4.4. Web Applications UX/UI Design
 
