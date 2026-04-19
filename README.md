@@ -32,7 +32,6 @@
 | U20221d382  | Poma Muñoz, Ariadna Geraldine       |
 | U20241b962  | Navarro Aldoradin, Carolina Celeste |
 | U202412903  | Lozano Quispe, Fabricio Jofred      |
-| U202410211  | Manosalva Tovar, Miroslav Oscar     |
 | U202414356  | Vite Celis, Rodrigo Matias          |
 
 <div style="font-weight: bold;"> Abril, 2026</div>
@@ -44,9 +43,9 @@
 | Versión | Fecha    | Autor       | Descripción de Modificación            |
 | ------- | -------- | ----------- | -------------------------------------- |
 | 0.1     | 07/04/26 | Poma Muñoz, Ariadna Geraldine    | Desarrollo de la Estructura del informe |
-| 0.1    | 00/04/26 | Navarro Aldoradin, Carolina Celeste | Desarrollo de la Estructura del informe|
-| 0.1    | 00/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
-| 0.1    | 00/04/26 | Vite Celis, Rodrigo Matias | Desarrollo de la Estructura del informe|
+| 0.1    | 07/04/26 | Navarro Aldoradin, Carolina Celeste | Desarrollo de la Estructura del informe|
+| 0.1    | 07/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
+| 0.1    | 07/04/26 | Vite Celis, Rodrigo Matias | Desarrollo de la Estructura del informe|
 
 
 
@@ -54,11 +53,11 @@
 
 | URL de la organización del proyecto | URL del repositorio del reporte   |
 | :------------------: | :---------------------------: | 
-|  |  |
+| https://github.com/upc-pre-202610-1asi0729-11896-guardiant | https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-report |
 
 | URL del repositorio de la landing page |
 | :----------------------------: | 
-|  | 
+| https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-website | 
 
 
 
@@ -184,7 +183,7 @@ En una ciudad como Lima,  donde la inseguridad ciudadana y el robo de vehículos
 ### 1.1.2. Perfiles de integrantes del equipo
 
 - ![fasfa](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZgWnkQmogCpq9bl6XEaB6CVhds8mXrWyoQ&s)
-<div style="font-weight: bold"> Carolina Celeste Navarro Aldoradin</div> u20241b962
+<div style="font-weight: bold"> Carolina Celeste Navarro Aldoradin</div> u20241b962 |
 Ingeniería de Software
 <div style="font-style: italic">Estudiante de 5to ciclo con conocimiento de IIoT, sistemas satelitales, lenguajes de programación como C++, Python, Javascript, Typescript y otros. </div> 
 
