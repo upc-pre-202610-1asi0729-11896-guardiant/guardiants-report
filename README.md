@@ -490,14 +490,15 @@ A continuación, se presentan las preguntas dirigidas al segmento de organismos 
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
-
 En esta sección vamos a detallar las tareas que realizan los diferentes segmentos de usuarios representados por los User Personas de nuestra aplicación GOD's Tracker
 
->Segmento 1: Persona Natural
+>Segmento 1: Persona Natural <br> <br> <img width="1920" height="1080" alt="SEGMENTO 1" src="https://github.com/user-attachments/assets/a569abe5-f47a-438e-82da-3622653efe6c" />
 
->Segmento 2: Empresas
+>Segmento 2: Empresas <br> <br> <img width="1920" height="1080" alt="SEGMENTO 2" src="https://github.com/user-attachments/assets/8e1f5799-c54c-469a-bc42-9b531393523a" />
 
->Segmento 3: Organismos Gubernamentales
+>Segmento 3: Organismos Gubernamentales <br> <br> <img width="1920" height="1080" alt="SEGMENTO 3" src="https://github.com/user-attachments/assets/84553992-1376-46cf-8c9c-99c7c69576a2" />
+
+
 
 ### 2.3.2. User Task Matrix  
 
