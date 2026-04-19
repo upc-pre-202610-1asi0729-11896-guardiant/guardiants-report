@@ -504,26 +504,25 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 >Segmento 1: Persona Natural
 
-|Tarea| Frecuencia| Importancia|
-|-----|-----------|-------------|
-|----| Often|	High|
-|-----|	Often|	High|
------|	Often|	High|
-------|	Occasionally	|High|
------	|Sometimes	|Medium|
------	|Occasionally	|Medium|
+| Tarea                                      | Frecuencia     | Importancia |
+|-------------------------------------------|---------------|-------------|
+| Ver ubicación del vehículo en tiempo real | Often         | High        |
+| Recibir alertas de robo                   | Occasionally  | High        |
+| Detectar movimientos sospechosos          | Occasionally  | High        |
+| Usar la app de forma fácil y rápida       | Often         | High        |
+| Confiar en la precisión del GPS           | Often         | High        |
+| Revisar estado general del vehículo       | Sometimes     | Medium      |
 
 >Segmento 2: Empresas
 
-|Tarea| Frecuencia| Importancia|
-|-----|-----------|-------------|
-------	|Often	|High|
-------- |	Often	|High|
-------	|Often	|High|
-------	|Sometimes|	Medium|
------	|Occasionally	|Medium|
------	|Occasionally	|Medium|
------	|Rarely	|Medium|  
+| Tarea                                      | Frecuencia     | Importancia |
+|-------------------------------------------|---------------|-------------|
+| Monitorear ubicación de la flota          | Often         | High        |
+| Recibir alertas de desvíos o paradas      | Occasionally  | High        |
+| Centralizar información en una plataforma | Often         | High        |
+| Comunicarse con conductores               | Often         | High        |
+| Analizar historial de rutas               | Occasionally  | Medium      |
+| Reducir costos operativos                 | Sometimes     | High        |
 
 >Segmento 3: Organismos Gubernamentales
 
