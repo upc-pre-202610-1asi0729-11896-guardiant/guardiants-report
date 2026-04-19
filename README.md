@@ -793,18 +793,53 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 
 ### 4.6.2. Software Architecture Context Diagram
 
+<div align="center">
+    <img src="images/01-SystemContext.png">
+</div>
+
 ### 4.6.3. Software Architecture Container Diagrams
 
+<div align="center">
+    <img src="images/02-Containers.png">
+</div>
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+<div align="center">
+    <img src="images/03-BC1-IdentityAccess.png">
+</div>
+
+<div align="center">
+    <img src="images/04-BC2-FleetsVehicles.png">
+</div>
+
+<div align="center">
+    <img src="images/05-BC3-DevicesTelemetry.png">
+</div>
+
+<div align="center">
+    <img src="images/06-BC4-Alerting.png">
+</div>
+
+<div align="center">
+    <img src="images/07-BC5-SecurityCommands.png">
+</div>
+
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
-## 4.8. Database Design
+<div align="center">
+    <img src="images/Diagrama de clases.png">
+</div>
 
+## 4.8. Database Design
 ### 4.8.1. Database Diagrams
 
+<div align="center">
+    <img src="images/Diagrama de base de datos.png">
+</div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
