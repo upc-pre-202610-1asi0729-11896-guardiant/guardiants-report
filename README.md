@@ -538,6 +538,14 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 ### 2.3.3. User Journey Mapping  
 
+## Segmento 1: Personas Naturales
+<img width="1019" height="980" alt="Customer Journey by XO Projects" src="https://github.com/user-attachments/assets/4a33507b-6343-49e2-8b18-9aa3ae2dcfa8" />
+
+## Segmento 2: Empresas
+<img width="1040" height="961" alt="Customer Journey by XO Projects (1)" src="https://github.com/user-attachments/assets/b1a01fa0-3338-466c-aeb6-9ab502af8164" />
+
+## Segmento 3: 
+
 ### 2.3.4. Empathy Mapping    
 
 ### 2.3.5. As-Is Scenario Mapping  
