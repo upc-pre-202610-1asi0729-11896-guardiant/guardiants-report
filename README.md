@@ -567,16 +567,16 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 ## 2.4. Ubiquitous Language  
 
 | Término | Definición |
-| ------- | ------- |
-|  |  | 
-|  | | 
-|  |  | 
-|  |  | 
-|  |  | 
-| |  | 
-|  |  | 
-|  |  | 
-|  |  | 
+|--------|-----------|
+| Asset (Activo) | Vehículo o carga que es monitoreado y protegido dentro del sistema. |
+| Active Defense Protocol (Protocolo de Defensa Activa) | Conjunto de acciones automáticas (como bloqueo de motor) ejecutadas ante una amenaza detectada. |
+| Interference Detection (Detección de Interferencias) | Identificación de intentos de bloqueo de señal (jammers) que afectan el rastreo del vehículo. |
+| Live Tracking (Seguimiento en tiempo real) | Visualización continua de la ubicación y estado del vehículo en la plataforma. |
+| Driving Behavior (Comportamiento de Manejo) | Análisis del estilo de conducción basado en datos como aceleración, frenado y velocidad. |
+| Geofence (Geocerca) | Área virtual definida en el mapa que permite detectar entradas o salidas del vehículo. |
+| Health Check (Verificación de Estado) | Confirmación periódica de que el sistema y los dispositivos se encuentran conectados y operativos. |
+| Security Alert (Alerta de Seguridad) | Notificación de alta prioridad ante eventos críticos como robo o manipulación del sistema. |
+| Operational Performance (Rendimiento Operativo) | Medición de la eficiencia del uso del vehículo basada en datos de operación y rutas. |
 
 
 # Capítulo III: Requirements Specifications
