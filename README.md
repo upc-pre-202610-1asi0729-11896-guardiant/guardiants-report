@@ -550,6 +550,15 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 >Segmento 2: Empresas
 
+
+
+
+
+
+
+
+
+
 ## 3.2. User Stories
 
 <table>
