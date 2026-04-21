@@ -562,9 +562,12 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 >Segmento 1: Persona Natural
 
+<img width="1433" height="697" alt="Scenario Mapping (3)" src="https://github.com/user-attachments/assets/87586a5b-e8e7-4319-9eed-9236cf1fe604" />
+
 >Segmento 2: Empresas
 
->Segmento 3: Organismos Gubernamentales
+<img width="1429" height="699" alt="Scenario Mapping (4)" src="https://github.com/user-attachments/assets/70c6d3ea-1a4f-4517-8069-b3fdf8c526d7" />
+
 
 ## 3.2. User Stories
 
