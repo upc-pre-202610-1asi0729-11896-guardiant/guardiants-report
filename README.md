@@ -637,17 +637,46 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.
 
 Impact Map - Segmento 1:
+<img width="1744" height="919" alt="image" src="https://github.com/user-attachments/assets/75074afa-1108-42a7-8c6b-407b54725963" />
+
+<img width="1913" height="931" alt="image" src="https://github.com/user-attachments/assets/b6047f02-5516-468d-962a-c4472cc678b7" />
 
 Impact Map - Segmento 2:
+<img width="1499" height="931" alt="image" src="https://github.com/user-attachments/assets/f87c9994-dc23-4afc-be77-7566141df9ae" />
+
+<img width="1881" height="662" alt="image" src="https://github.com/user-attachments/assets/99299826-e3e2-46f6-9ca4-eb213985b234" />
+
+<img width="1859" height="923" alt="image" src="https://github.com/user-attachments/assets/09b4f017-823e-4926-a390-5c8100d6d7ba" />
+
+<img width="1892" height="658" alt="image" src="https://github.com/user-attachments/assets/0ada81af-cdaa-45ea-a1ed-c8039b30192e" />
+
 
 ## 3.4. Product Backlog
 
-| #Orden | User Story Id | Título             | Descripción                                      | Story Points |
-|--------|---------------|--------------------|--------------------------------------------------|--------------|
-| 1      | US01          |     |      |             |
-| 2      | US02          |     |      |             |
-| 3      | US03          |     |      |             |
-
+| #Orden | User Story Id | Título | Descripción | Story Points |
+|--------|---------------|--------|------------|--------------|
+| 1 | US15 | Navegación por la landing page | Como usuario, quiero navegar por la landing page para conocer el producto. | 2 |
+| 2 | US16 | Acceso a la aplicación | Como usuario, quiero acceder a la aplicación desde la web para comenzar a usar el sistema. | 2 |
+| 3 | US17 | Registro en la plataforma | Como usuario, quiero registrarme para acceder a las funcionalidades del sistema. | 3 |
+| 4 | US01 | Visualizar ubicación en tiempo real | Como usuario, quiero ver la ubicación de mi vehículo en tiempo real para mantener control constante. | 5 |
+| 5 | US02 | Consultar estado del vehículo | Como usuario, quiero consultar el estado general de mi vehículo para entender su situación. | 3 |
+| 6 | US03 | Revisar historial de rutas | Como usuario, quiero revisar el historial de rutas para analizar recorridos. | 3 |
+| 7 | US08 | Visualizar flota completa | Como supervisor, quiero visualizar todos los vehículos en un solo panel para tener control total. | 5 |
+| 8 | US09 | Monitorear flota en tiempo real | Como supervisor, quiero monitorear vehículos en tiempo real para supervisar la operación. | 8 |
+| 9 | US10 | Detectar desvíos de ruta | Como supervisor, quiero detectar desvíos de ruta para actuar ante incidentes. | 5 |
+| 10 | US11 | Alertas de paradas prolongadas | Como supervisor, quiero recibir alertas de paradas prolongadas para identificar riesgos. | 5 |
+| 11 | US12 | Analizar comportamiento de manejo | Como supervisor, quiero analizar el comportamiento de manejo para mejorar eficiencia. | 5 |
+| 12 | US13 | Visualizar reportes operativos | Como supervisor, quiero visualizar reportes para mejorar la toma de decisiones. | 5 |
+| 13 | US04 | Configurar geocercas | Como usuario, quiero configurar geocercas para proteger mi vehículo en zonas específicas. | 5 |
+| 14 | US05 | Recibir alertas de seguridad | Como usuario, quiero recibir alertas ante eventos sospechosos para actuar rápidamente. | 5 |
+| 15 | US06 | Activar defensa automática | Como usuario, quiero que el sistema active defensa automática para proteger mi vehículo. | 8 |
+| 16 | TS21 | Autenticación de usuarios | Como developer, quiero autenticar usuarios mediante API para permitir el acceso seguro al sistema. | 5 |
+| 17 | TS14 | Obtener ubicación vía API | Como developer, quiero obtener datos de ubicación mediante API para mostrar información en tiempo real. | 5 |
+| 18 | TS07 | Registrar telemetría | Como developer, quiero registrar datos de telemetría para monitorear el vehículo. | 5 |
+| 19 | TS20 | Procesar envío de alertas | Como developer, quiero procesar alertas mediante API para notificar eventos críticos. | 5 |
+| 20 | TS18 | Cambio de idioma | Como developer, quiero permitir cambiar el idioma para mejorar la accesibilidad. | 2 |
+| 21 | TS19 | Contacto con soporte | Como usuario, quiero contactar al soporte para resolver dudas sobre el sistema. | 2 |
+| 22 | TS22 | Manejo de errores del sistema | Como developer, quiero gestionar errores para garantizar la estabilidad del sistema. | 3 |
 
 
 
