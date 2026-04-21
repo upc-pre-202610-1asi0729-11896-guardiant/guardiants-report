@@ -415,7 +415,7 @@ A continuación, se presentan las preguntas dirigidas al segmento empresarial, c
 
 </div>
 
-### Resumen de entrevistas segmento #2
+### Resumen de entrevistas segmento #1
 ## Segmento 2: Empresas
 
 <div align="center">
@@ -428,11 +428,49 @@ A continuación, se presentan las preguntas dirigidas al segmento empresarial, c
 
 </div>
 
+### Resumen de entrevistas segmento #2
+
+A partir de las entrevistas, se puede ver que todos los participantes trabajan en entornos donde la inseguridad en rutas es un problema constante, especialmente por robos y desvíos que afectan directamente sus operaciones. Actualmente dependen de herramientas básicas como GPS, llamadas o WhatsApp, lo que hace que el seguimiento de los vehículos sea poco eficiente y muy manual, generando incertidumbre y dificultando la toma de decisiones rápidas. En general, coinciden en que necesitan tener mayor control y visibilidad en tiempo real, valorando mucho funciones como alertas automáticas ante situaciones sospechosas y el acceso a historiales de rutas para entender mejor lo que ocurre. También buscan una solución que sea simple, accesible desde el celular y que centralice toda la información en un solo lugar. Más allá de la tecnología, lo que realmente esperan es poder trabajar con mayor tranquilidad, reducir riesgos y mejorar la eficiencia de sus operaciones.
+
 ### 2.2.3. Análisis de entrevistas.
 
 **Segmento Objetivo: Persona natural**
 
 **Segmento Objetivo: Empresas**
+A partir de las 3 entrevistas realizadas a profesionales vinculados a la supervisión de flotas y seguridad vehicular, se identificaron patrones comunes tanto en características objetivas como subjetivas.
+
+#### Características objetivas
+
+- El 100% de los entrevistados trabaja directamente con vehículos o gestión de flotas (supervisor de tráfico, operaciones o seguridad).
+- El 100% utiliza herramientas básicas como GPS, llamadas telefónicas o WhatsApp para el seguimiento de unidades.
+- El 100% se desempeña en contextos urbanos con alta incidencia de robos, especialmente en rutas de Lima Metropolitana.
+- El 100% requiere monitoreo en tiempo real para el control de vehículos.
+
+#### Características subjetivas
+- El 100% manifiesta alta preocupación por la inseguridad en rutas, mencionando robos, pérdidas de carga o incidentes operativos.
+- El 100% considera que las soluciones actuales son insuficientes debido a:
+  - Falta de integración de información  
+  - Dependencia de procesos manuales  
+  - Limitaciones del GPS tradicional  
+
+- El 100% valora funcionalidades clave como:
+  - Monitoreo en tiempo real  
+  - Alertas automáticas (desvíos, paradas, velocidad)  
+  - Historial de rutas  
+
+- El 100% busca una plataforma centralizada que integre toda la información en un solo sistema.
+
+- El 67% enfatiza la necesidad de:
+  - Reducir costos operativos  
+  - Optimizar tiempos de entrega  
+  - Mejorar la rentabilidad  
+
+- El 100% prioriza la facilidad de uso, indicando que el sistema debe ser:
+  - Rápido  
+  - Accesible desde el celular  
+  - Intuitivo  
+
+- El 100% asocia el uso de estas soluciones con mayor control y tranquilidad, destacando que el valor principal no radica en la tecnología en sí, sino en la reducción de la incertidumbre operativa.
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
