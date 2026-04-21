@@ -402,7 +402,6 @@ A continuación, se presentan las preguntas dirigidas al segmento empresarial, c
 18. ¿Qué tan seguido usas celular o computadora en tu trabajo?
 
 ### 2.2.2. Registro de entrevistas
-### Resumen de entrevistas segmento #1
 ## Segmento 1: Persona natural
 
 <div align="center">
@@ -410,12 +409,15 @@ A continuación, se presentan las preguntas dirigidas al segmento empresarial, c
 | Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |--------------|------------------------|--------------------------|--------------------------|
 | 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Link:** colocar link | El entrevistado, trabajador en logística y usuario frecuente de su vehículo, muestra alta preocupación por el robo, reforzada por un intento previo.<br>Considera que las medidas actuales como la alarma y precaución son insuficientes, evidenciando la necesidad de una solución más completa.<br>Valora el monitoreo en tiempo real y las alertas inmediatas (movimiento sospechoso, intento de robo y ubicación), alineándose con la propuesta de GuardiAnts.<br>Prioriza una app simple, rápida y fácil de usar desde el celular, destacando la precisión y confiabilidad del GPS como factores clave.<br>Su perfil digital y disposición a recomendar la solución refuerzan el potencial de adopción del producto. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
-| 2 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Link:** colocar link | Pendiente de completar. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
+| 2 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Link:** colocar link | Enrique, un estudiante de 22 años que se mueve por varias zonas de Lima, considera que sí usaría una app de seguridad vehicular sencilla que le permita ver la ubicación de su auto en tiempo real y recibir alertas ante situaciones sospechosas, especialmente por experiencias cercanas de intento de robo. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
 | 3 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Link:** colocar link | La entrevistada, comerciante independiente, evidencia una alta preocupación por la inseguridad vehicular debido al contexto actual de delincuencia en Lima y a experiencias previas de intento de robo y manipulación de su vehículo mientras realizaba sus actividades laborales.<br>Actualmente no cuenta con una medida de seguridad para su auto, pero considera que es insuficiente, ya que busca mayor control y seguimiento constante. Destaca la necesidad de conocer la ubicación de su vehículo en todo momento y recibir alertas inmediatas ante cualquier movimiento sospechoso.<br>Valora especialmente funciones como notificaciones en tiempo real, ubicación precisa y alertas por movimiento, priorizando un sistema que le permita reaccionar rápidamente ante posibles incidentes.<br>Busca una aplicación simple, fácil de usar y accesible desde el celular, que le brinde mayor tranquilidad y control. Además, muestra disposición a adoptar este tipo de tecnología y recomendarla a su entorno si demuestra ser confiable y efectiva. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
 
 </div>
 
 ### Resumen de entrevistas segmento #1
+
+A partir de las entrevistas, se observa que todos los participantes comparten una fuerte preocupación por la inseguridad vehicular en Lima, influenciada tanto por el contexto actual como por experiencias cercanas o personales de intento de robo. Aunque algunos cuentan con medidas básicas como alarmas o simplemente toman precauciones, coinciden en que estas resultan insuficientes frente a los riesgos actuales, lo que genera una sensación constante de vulnerabilidad. En general, valoran mucho la posibilidad de monitorear su vehículo en tiempo real, recibir alertas inmediatas ante movimientos sospechosos y contar con una ubicación precisa, ya que esto les permitiría reaccionar rápidamente ante cualquier incidente. Además, destacan la importancia de que la solución sea fácil de usar, accesible desde el celular y confiable en términos de funcionamiento. Más allá de las funcionalidades, lo que realmente buscan es sentirse más tranquilos, tener mayor control sobre su vehículo y reducir la incertidumbre en su día a día, mostrando también una buena disposición a adoptar y recomendar una herramienta que cumpla con estas expectativas.
+
 ## Segmento 2: Empresas
 
 <div align="center">
@@ -435,6 +437,36 @@ A partir de las entrevistas, se puede ver que todos los participantes trabajan e
 ### 2.2.3. Análisis de entrevistas.
 
 **Segmento Objetivo: Persona natural**
+A partir de las 3 entrevistas realizadas a usuarios que utilizan su vehículo de forma personal (trabajo y actividades diarias), se identificaron patrones claros tanto en características objetivas como subjetivas.
+
+### Características objetivas
+- El 100% de los entrevistados utiliza su vehículo de manera frecuente como parte de su rutina diaria.  
+- El 100% reside o se moviliza en distritos de Lima Metropolitana con percepción de alta inseguridad.  
+- El 67% ha experimentado directamente intentos de robo o situaciones sospechosas con su vehículo.  
+- El 100% cuenta con acceso a smartphone y muestra familiaridad con el uso de aplicaciones móviles.  
+- El 67% utiliza medidas básicas de seguridad como alarmas o precauciones personales, pero sin sistemas tecnológicos avanzados.  
+
+### Características subjetivas
+- El 100% manifiesta una alta preocupación por la inseguridad vehicular, asociada a robos, manipulación del auto o riesgos en la vía pública.  
+
+- El 100% considera que las medidas actuales son insuficientes debido a:  
+  - Falta de monitoreo constante  
+  - Ausencia de alertas en tiempo real  
+  - Limitado control sobre el vehículo cuando no está presente  
+
+- El 100% valora funcionalidades clave como:  
+  - Monitoreo en tiempo real  
+  - Alertas inmediatas ante movimientos sospechosos  
+  - Ubicación precisa del vehículo  
+
+- El 100% busca una solución que sea:  
+  - Fácil de usar  
+  - Accesible desde el celular  
+  - Rápida e intuitiva  
+
+- El 100% muestra disposición a adoptar nuevas tecnologías siempre que sean confiables y efectivas.  
+
+- El 100% asocia el uso de este tipo de soluciones con mayor tranquilidad y control, destacando que el principal valor no está solo en la tecnología, sino en la sensación de seguridad y reducción de la incertidumbre en su día a día.
 
 **Segmento Objetivo: Empresas**
 A partir de las 3 entrevistas realizadas a profesionales vinculados a la supervisión de flotas y seguridad vehicular, se identificaron patrones comunes tanto en características objetivas como subjetivas.
