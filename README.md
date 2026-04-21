@@ -175,7 +175,7 @@ En una ciudad como Lima,  donde la inseguridad ciudadana y el robo de vehículos
 
 
 <div align="center">
-  <img src="https://i.postimg.cc/d1jFXhfx/image(1).png'" width="20%">
+  <img src="images/logo guardiants - with name.png" width="30%">
 </div>
 
 <br>
