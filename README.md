@@ -62,7 +62,7 @@
 
 
 **URL LANDING PAGE DESPLEGADO**:
-
+https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/
 
 Commits del Report:
 
