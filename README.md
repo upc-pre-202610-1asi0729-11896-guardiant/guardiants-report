@@ -690,10 +690,92 @@ Para garantizar una experiencia intuitiva y sin confusiones, las etiquetas emple
 
 ### 4.2.3. SEO Tags and Meta Tags 
 
+En esta sección se definen los SEO Tags y Meta Tags que serán implementados en las principales páginas de la experiencia de GuardiAnts, tanto en la Landing Page como en la Web Application. Estos elementos permiten mejorar el posicionamiento del producto en motores de búsqueda y facilitar su descubrimiento por parte de los usuarios.
+
+**Landing Page:**
+
+| Elemento | Valor |
+|----------|------|
+| Title | GuardiAnts | Seguridad Vehicular Inteligente en Tiempo Real para protección contra robos |
+| Meta Description | Plataforma de telemetría e IoT que permite monitorear, proteger y controlar vehículos en tiempo real mediante alertas inteligentes y seguimiento GPS. |
+| Meta Keywords | seguridad vehicular, rastreo GPS, telemetría IoT, monitoreo de vehículos, prevención de robos, control de flotas, Lima seguridad |
+| Author | Equipo GuardiAnts - UPC Ingeniería de Software |
+
+**Web Application**
+
+| Elemento | Valor |
+|----------|------|
+| Title | Dashboard de Monitoreo | GuardiAnts |
+| Meta Description | Sistema de monitoreo vehicular que permite gestionar unidades, visualizar rutas, detectar anomalías y ejecutar acciones de seguridad en tiempo real. |
+| Meta Keywords | dashboard GPS, monitoreo en tiempo real, control de flotas, seguridad IoT, telemetría vehicular, alertas inteligentes |
+| Author | Equipo GuardiAnts - UPC Ingeniería de Software |
+
 ### 4.2.4. Searching Systems.
+
+En esta sección se describen los mecanismos de búsqueda que ofrece GuardiAnts para facilitar al usuario la localización de información dentro del sistema, evitando que se sienta perdido frente al volumen de datos generado por la plataforma.
+
+El sistema permitirá realizar búsquedas sobre los elementos principales del sistema, como vehículos, rutas y eventos registrados, incorporando filtros que permitan refinar los resultados según las necesidades del usuario.
+
+**Opciones de búsqueda**
+
+- Búsqueda de vehículos registrados mediante nombre, código o placa.
+- Búsqueda de rutas realizadas según trayectos históricos.
+- Búsqueda de eventos críticos como alertas, intentos de robo o bloqueos.
+- Búsqueda de reportes históricos asociados a fechas específicas.
+
+**Filtros de búsqueda**
+
+| Filtro | Descripción |
+|--------|------------|
+| Fecha | Permite definir un rango de tiempo para acotar los resultados de búsqueda |
+| Estado del vehículo | Filtra según estado actual: activo, inactivo o en alerta |
+| Tipo de evento | Permite seleccionar eventos específicos como robo, alerta o comportamiento sospechoso |
+| Ubicación | Permite buscar información según zonas geográficas o rutas recorridas |
+
+**Presentación de resultados**
+
+- Los resultados se muestran en listas organizadas.
+- Se incluye información clave como ubicación, hora y estado.
+- Integración con mapa en tiempo real para visualización geográfica.
+- Uso de alertas visuales para eventos críticos.
+
+**Características del sistema**
+
+- Búsqueda en tiempo real.
+- Resultados claros y jerarquizados.
+- Reducción de carga cognitiva del usuario.
+- Acceso rápido a información crítica.
 
 ### 4.2.5. Navigation Systems. 
 
+En esta sección se describen las técnicas de navegación que permitirán a los usuarios desplazarse a través de la Landing Page y la Web Application de GuardiAnts, facilitando el cumplimiento de sus objetivos dentro de la plataforma.
+
+El sistema de navegación estará diseñado para guiar al usuario de forma clara desde el primer contacto con la Landing Page hasta la interacción completa dentro de la aplicación.
+
+**Tipos de navegación**
+
+| Tipo | Descripción |
+|------|------------|
+| Navegación global | Menú principal visible en todas las páginas que permite acceder a secciones como Inicio, Beneficios, Servicios, Contacto y acceso al sistema |
+| Navegación jerárquica | Estructura organizada por niveles que permite pasar de vistas generales a específicas (Inicio → Dashboard → Vehículo → Detalle) |
+| Navegación local | Opciones internas dentro de cada módulo que permiten interactuar con funcionalidades específicas del sistema |
+| Navegación contextual | Acciones disponibles según el contexto, como visualizar detalles, generar alertas o ejecutar el bloqueo del vehículo |
+
+**Recorrido del usuario (User Flow)**
+
+- En la Landing Page:
+  - Inicio → Información del producto → Beneficios → Registro/Login
+
+- En la Web Application:
+  - Dashboard → Selección de vehículo → Visualización de datos → Ejecución de acciones (bloqueo, monitoreo, alertas)
+
+ **Características**
+
+- Menú de navegación claro y accesible.
+- Uso de iconos y etiquetas comprensibles.
+- Acceso rápido a funciones críticas.
+- Reducción de pasos para acciones importantes.
+  
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
