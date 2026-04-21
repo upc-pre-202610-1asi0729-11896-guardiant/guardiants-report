@@ -478,16 +478,11 @@ A continuación, se presentan las preguntas dirigidas al segmento de organismos 
 
 </div>
 
-### Resumen de entrevistas segmento #3
-
-
 ### 2.2.3. Análisis de entrevistas.
 
 **Segmento Objetivo: Persona natural**
 
 **Segmento Objetivo: Empresas**
-
-**Segmento Objetivo: Organismos Gubernamentales**
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
@@ -525,18 +520,6 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 | Analizar historial de rutas               | Occasionally  | Medium      |
 | Reducir costos operativos                 | Sometimes     | High        |
 
->Segmento 3: Organismos Gubernamentales
-
-|Tarea| Frecuencia| Importancia|
-|-----|-----------|-------------|
-------	|Often	|High|
-------- |	Often	|High|
-------	|Often	|High|
-------	|Sometimes|	Medium|
------	|Occasionally	|Medium|
------	|Occasionally	|Medium|
------	|Rarely	|Medium|  
-
 ### 2.3.3. User Journey Mapping  
 
 ## Segmento 1: Personas Naturales
@@ -545,8 +528,6 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 ## Segmento 2: Empresas
 <img width="1040" height="961" alt="Customer Journey by XO Projects (1)" src="https://github.com/user-attachments/assets/b1a01fa0-3338-466c-aeb6-9ab502af8164" />
 
-## Segmento 3: 
-
 ### 2.3.4. Empathy Mapping    
 
 ## Segmento 1
@@ -554,8 +535,6 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 ## Segmento 2
 <img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro" src="https://github.com/user-attachments/assets/1f3f3285-8c41-4b8d-b3d7-517f35bc68e2" />
-
-# Segmento 3
 
 ### 2.3.5. As-Is Scenario Mapping  
 > Segmento 1: Personas Naturales
