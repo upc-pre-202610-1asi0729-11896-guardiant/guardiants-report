@@ -1099,15 +1099,15 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 ### 4.6.4. Software Architecture Components Diagrams
 
 <div align="center">
-    <img src="images/03-BC1-IdentityAccess.png">
+    <img src="images/03-BC1-Identity.png">
 </div>
 
 <div align="center">
-    <img src="images/04-BC2-FleetsVehicles.png">
+    <img src="images/04-BC2-Fleet.png">
 </div>
 
 <div align="center">
-    <img src="images/05-BC3-DevicesTelemetry.png">
+    <img src="images/05-BC3-Telemetry.png">
 </div>
 
 <div align="center">
@@ -1115,9 +1115,12 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 </div>
 
 <div align="center">
-    <img src="images/07-BC5-SecurityCommands.png">
+    <img src="images/07-BC5-Commands.png">
 </div>
 
+<div align="center">
+    <img src="images/08-BC6-Query.png">
+</div>
 
 ## 4.7. Software Object-Oriented Design
 
