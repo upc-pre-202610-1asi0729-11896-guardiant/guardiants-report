@@ -544,17 +544,8 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 
 # Capítulo III: Requirements Specifications
-### 3.1 To-Be Scenario Mapping
 
->Segmento 1: Persona Natural
-
-<img width="1433" height="697" alt="Scenario Mapping (3)" src="https://github.com/user-attachments/assets/87586a5b-e8e7-4319-9eed-9236cf1fe604" />
-
->Segmento 2: Empresas
-
-<img width="1429" height="699" alt="Scenario Mapping (4)" src="https://github.com/user-attachments/assets/70c6d3ea-1a4f-4517-8069-b3fdf8c526d7" />
-
-## 3.2. User Stories
+## 3.1. User Stories
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con |
 |----------------|--------|-------------|--------------------------|-----------------| 
@@ -744,7 +735,7 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 | TS41 | Autenticación de usuarios mediante API |
 | TS42 | Manejo de errores en el sistema |
 
-## 3.3. Impact Mapping
+## 3.2. Impact Mapping
 El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.
 
 Impact Map - Segmento 1:
@@ -762,7 +753,7 @@ Impact Map - Segmento 2:
 <img width="1892" height="658" alt="image" src="https://github.com/user-attachments/assets/0ada81af-cdaa-45ea-a1ed-c8039b30192e" />
 
 
-## 3.4. Product Backlog
+## 3.3 Product Backlog
 
 | #Orden | User Story Id | Título | Descripción | Story Points |
 |--------|---------------|--------|------------|--------------|
