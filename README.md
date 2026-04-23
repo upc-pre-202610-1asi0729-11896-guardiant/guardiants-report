@@ -555,8 +555,20 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 ## Segmento 2
 <img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro" src="https://github.com/user-attachments/assets/1f3f3285-8c41-4b8d-b3d7-517f35bc68e2" />
 
+## 2.4. Big Picture Event Storming
 
-## 2.4. Ubiquitous Language  
+En la sesión de Big Picture Event Storming, el equipo exploró de forma visual el panorama general del dominio de seguridad vehicular inteligente de GuardiAnts. Se identificaron los eventos significativos del ciclo de vida de un activo monitoreado, desde el registro del vehículo hasta la respuesta ante incidentes críticos, integrando los sistemas externos que interactúan con la plataforma y exponiendo los problemas, dudas y oportunidades de mejora detectados durante la sesión. Esta primera aproximación permitió alinear el entendimiento del equipo y sentar las bases para el diseño detallado de la solución.
+
+### Big Picture Event Storming – Mapa General
+
+<p align="center"><img src="./images/big picture-event storming.png" width="1505" height="664"></p>
+
+### Big Picture Event Storming - Leyenda de Colores
+
+<p align="center"><img src="./images/big picture-leyenda de colores.png" width="1505" height="664"></p>
+
+
+## 2.5. Ubiquitous Language  
 
 | Término | Definición |
 |--------|-----------|
