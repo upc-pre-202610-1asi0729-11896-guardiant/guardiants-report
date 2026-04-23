@@ -307,7 +307,10 @@ Debe tener una interfaz limpia y profesional que facilite la lectura rápida baj
 
 #### 1.2.2.4. Lean UX Canvas
 
-- [![Lean-UX-Canvas.png](https://i.postimg.cc/d0dkhkPG/Lean-UX-Canvas.png)](https://postimg.cc/zLzXMfff)
+<div align="center">
+    <img src="images/LeanUxCanvas.png">
+</div>
+
 
 ## 1.3. Segmentos objetivos
 **Segmento #1: Persona natural** <br>
