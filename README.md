@@ -552,13 +552,6 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 ## Segmento 2
 <img width="1024" height="768" alt="Copia de Brainstorming Mapa de Empatia Usuario Simple Blanco Y Negro" src="https://github.com/user-attachments/assets/1f3f3285-8c41-4b8d-b3d7-517f35bc68e2" />
 
-### 2.3.5. As-Is Scenario Mapping  
-> Segmento 1: Personas Naturales
-<img width="1431" height="698" alt="Scenario Mapping (1)" src="https://github.com/user-attachments/assets/8de8fb15-8ca0-4da1-816b-56fca0e48258" />
-
-
-> Segmento 2: Empresas
-<img width="1431" height="698" alt="Scenario Mapping (2)" src="https://github.com/user-attachments/assets/f8ff4b92-9fee-4e2c-909f-da15267447f2" />
 
 ## 2.4. Ubiquitous Language  
 
