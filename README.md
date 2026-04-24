@@ -877,6 +877,15 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
+<img width="2256" height="443" alt="image" src="https://github.com/user-attachments/assets/72e85a4e-684c-4640-b777-1da24ae95fa6" />
+<img width="2926" height="341" alt="image" src="https://github.com/user-attachments/assets/69a4ba32-7b1c-49d6-a87b-74e41f042012" />
+<img width="1863" height="536" alt="image" src="https://github.com/user-attachments/assets/9e28de5b-3cf4-4d17-9aae-5aaf40811e79" />
+<img width="1687" height="592" alt="image" src="https://github.com/user-attachments/assets/202c45fa-84d1-4553-a679-a938a932963c" />
+<img width="1529" height="653" alt="image" src="https://github.com/user-attachments/assets/a9030c27-8946-408b-937b-c2f4bf7b13db" />
+<img width="1282" height="779" alt="image" src="https://github.com/user-attachments/assets/858444e8-672e-4513-a61c-5db1571219a6" />
+
+Link del miro: https://miro.com/app/board/uXjVHd90Bvk=/?share_link_id=919402889853
+
 
 ### 4.6.2. Software Architecture Context Diagram
 
