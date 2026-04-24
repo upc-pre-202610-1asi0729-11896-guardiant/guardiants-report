@@ -678,12 +678,131 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
+<!-- Nombres de productos, el
+propósito de uso en el proyecto, la ruta de referencia de los productos de software que deben utilizar los miembros del equipo para colaborar en el ciclo de vida del producto
+digital, considerando todos los tipos de actividades como Project Management,
+Requirements Management, Product UX/UI Design, Software Development,
+Software Deployment, Software Documentation, respetando las restricciones
+indicadas sobre productos de software y herramientas que se pueden utilizar.-->
+
+- ***Project Management***: 
+  -**WhatsApp**: Herramienta de comunicación por chats. División de tareas por encuestas en el chat grupal y status de avance diarios. Link de descarga: [https://www.whatsapp.com/](https://www.whatsapp.com/) 
+- ***Requirements Management***:
+  - **UXPressia**: Creación de artefactos de needfinding como User Personas, User Journey Maps y Empathy Maps para comprender las necesidades del usuario. Link de navegador: [https://uxpressia.com/]([https://www.whatsapp.com/](https://www.whatsapp.com/) )
+  - **Herramienta Miro**: Desarrollo de Event Storming (Big Picture y Process Level) para el modelado de procesos y definición del alcance del sistema. Link de navegador: [https://miro.com/](https://miro.com/)
+  - **Gherkin**: Definición de criterios de aceptación y escenarios de prueba en formato Given–When–Then. Link del plugin: [https://plugins.jetbrains.com/plugin/9164-gherkin](https://plugins.jetbrains.com/plugin/9164-gherkin)
+- ***Product UX/UI Design***:
+  - **Figma**: Diseño de wireframes y mockups de la interfaz del sistema, tanto la landing page como el resto del frontend. Link de navegador [https://www.figma.com/](https://www.figma.com/)
+- ***Software Development***:
+  - **Visual Studio Code**: IDE principal para la programación del sistema.
+  - **GitHub** Control de versiones y trabajo en colaboración mediante repositorios, commits y branches.
+  -**Angular Lenguaje**: TypeScript Desarrollo de la interfaz web interactiva del sistema.
+  - **Tecnología Backend Node.js**: Desarrollo de la lógica del servidor, manejo de peticiones HTTP y conexión con la base de datos.
+  - **Base de Datos**: Microsoft SQL Server Propósito: Almacenamiento y gestión de la información del sistema. 
+  - **WebStorm**: Entorno de desarrollo especializado para aplicaciones JavaScript y TypeScript. IDE complementario o alternativo a VSC.
+- ***Software Deployment***:
+  - **Github Pages**: Despliegue de la solución (incluyendo la landing page) de nuestro sistema (GoldCheck).
+- ***Software Documentation***:
+  - Markdown: Documentación técnica del proyecto, desde el reporte hasta las User Stories, licensias y otros artifactos.
+  - **Structurizer**: Elaboración de diagramas de arquitectura del sistema utilizando el modelo C4 (contexto, contenedores, componentes y código).
+  - **Visual Studio Code**: Documentación específico del código en los comentarios de cada archivo del repositorio.
+
 
 ### 5.1.2. Source Code Management
+Para el control de versiones y la gestión centralizada del código de nuestro proyecto **GuardiAnts**, el equipo utiliza **GitHub** como plataforma principal. GitHub nos permite alojar el código fuente del Landing Page, la Web App y la plataforma técnica, manteniendo un registro histórico de cambios que garantiza la trazabilidad y facilita la colaboración estructurada durante todo el ciclo de desarrollo.
+
+Para este fin, hemos constituido la organización **GuardiAnts-Organization**, la cual aloja los siguientes repositorios estratégicos:
+
+| Solución | Nombre del repositorio | Enlace |
+| :--- | :--- | :--- |
+| **Report** | guardiants-report | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-report) |
+| **Landing Page** | guardiants-website | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-website) |
+| **Front-End (Web App)** | guardiants-webapp | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-webapp) |
+| **Back-End (Platform)** | guardiants-platform | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-platform) |
+
+---
+
+### Estrategia de Trabajo: GitFlow
+
+Nuestro equipo ha implementado el modelo de trabajo **GitFlow**, basado en la metodología de Vincent Driessen. Bajo este esquema, mantenemos dos ramas permanentes: **main** (que contiene código estable y listo para producción) y **develop** (utilizada como rama de integración para el desarrollo activo).
+
+*   **Feature Branches:** Cada funcionalidad o sección del informe se trabaja en ramas aisladas bajo la nomenclatura `feature/chapter-#-description` (ej. `feature/chapter-ii-interviews`) o `feature/chapter-#-content` si abarca un capítulo completo.
+*   **Release Branches:** Al aproximarse una entrega, se genera una rama `release` desde `develop` para ajustes finales y corrección de errores menores, bajo la convención `release/vX.Y.Z` aplicando **Semantic Versioning**.
+*   **Integración Final:** Una vez validada, la rama de lanzamiento se fusiona tanto en `main` como en `develop` para asegurar la consistencia del proyecto.
+*   **Hotfixes:** Las correcciones críticas y urgentes en producción se resuelven mediante ramas `hotfix/vX.Y.Z` que se integran directamente tras su validación.
+
+Para mantener un historial de cambios legible y profesional, todos los mensajes de confirmación se rigen por los estándares de **Conventional Commits**, asegurando un flujo de trabajo impecable para el ecosistema de **GuardiAnts**.
+
+
+### Evidencias de Repositorios
+
+**Repositorios en la organización**
+<img src="./captura-repos.png">
 
 ### 5.1.3. Source Code Style Guide & Conventions
+### Regla General
+Todos los identificadores (archivos, clases, IDs, variables, etc.) deben estar en **inglés**.
 
+### 1. HTML
+
+*   **Estructura Semántica:** Usar etiquetas semánticas de HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`) en lugar de `<div>` genéricos siempre que sea posible.
+*   **Etiquetas y atributos en minúsculas:**
+    `<section id="home" class="hero"></section>`
+*   **Atributos de accesibilidad (A11y) obligatorios:** Incluir siempre `aria-label`, `aria-controls`, `aria-expanded` o `aria-hidden` en elementos interactivos o decorativos.
+    `<button class="btn-menu" aria-expanded="false" aria-controls="primaryNav">`
+*   **Internacionalización (i18n):** Todo el texto visible por el usuario debe estar vinculado a una clave de traducción mediante el atributo `data-i18n`.
+    `<h1 class="hero-title" data-i18n="heroSection.slogan">...</h1>`
+*   **Optimización y manejo de imágenes:** 
+    *   Cerrar siempre los elementos (`<img ... />`).
+    *   Incluir atributo `alt`.
+    *   Añadir `loading="lazy"` para imágenes fuera de la primera vista (below the fold) y manejar errores de carga.
+    `<img src="assets/vision.png" alt="Vision" loading="lazy" onerror="this.style.display='none'" />`
+*   **Comillas dobles:** Usar siempre comillas dobles para los valores de los atributos.
+*   **Sangría:** 4 espacios para anidar elementos de forma clara.
+
+### 2. CSS
+
+*   **Variables Globales:** Utilizar la pseudo-clase `:root` para definir la paleta de colores, sombras y otros valores reutilizables.
+    `var(--text)`, `var(--bg)`
+*   **Convención de Nombres (Clases e IDs):** 
+    *   Usar `kebab-case` para nombres de clases. Ej: `.site-header`, `.hero-inner`.
+    *   Usar `camelCase` para los IDs que se manipularán con JavaScript. Ej: `#menuToggle`, `#primaryNav`.
+*   **Metodología BEM (Bloque, Elemento, Modificador):** Aplicar BEM para variaciones de componentes usando doble guion (`--`) para los modificadores.
+    `.section--white { ... }`
+    `.split--reverse { ... }`
+*   **Diseño Responsivo (Desktop-First):** Seguir la estructura de media queries basada en `max-width` descendente para adaptar el diseño:
+    *   Tablets y menores: `@media (max-width: 980px)`
+    *   Móviles grandes: `@media (max-width: 720px)`
+    *   Móviles pequeños: `@media (max-width: 480px)`
+*   **Omitir unidades en valores cero:**
+    `margin: 0;` (No `margin: 0px;`)
+*   **Separación visual:** Separar los selectores de bloques diferentes con una línea en blanco para mayor legibilidad.
+
+### 3. JavaScript (Integración para el Frontend)
+
+*   **Nomenclatura:** `camelCase` para variables, funciones y referencias al DOM.
+    `const menuToggle = document.getElementById('menuToggle');`
+*   **Declaración de variables:** Usar `const` por defecto y `let` solo si el valor va a reasignarse. Prohibido el uso de `var`.
+*   **Manejo de Eventos del DOM:** Separar la lógica de manipulación del DOM (como abrir/cerrar el menú de navegación o cambiar el idioma) en funciones pequeñas y modulares.
+*   **Manipulación de Clases:** Usar `classList.toggle()`, `classList.add()`, y `classList.remove()` para manejar los estados de la UI (ej. `.nav-open`).
+    `siteHeader.classList.toggle('nav-open');`
+*   **Sintaxis ES6+:** Preferir *arrow functions* para los *event listeners* y *callbacks*.
+
+### 4. Gestión de Archivos y Recursos (Assets)
+
+*   **Nomenclatura de archivos:** Todo en minúsculas y `kebab-case`.
+    `logo-guardiants-short.png`, `how-natural-person.png`
+*   **Organización:** Mantener las imágenes organizadas dentro de un directorio `/assets/`.
 ### 5.1.4. Software Deployment Configuration
+- Creación de la Landing Page:
+1. Se crea un repositorio (guardiants-website) desde upc-pre-202610-1asi0729-11896-guardiant organization
+![deployment1-screenshoot](guardiants-website.png)
+
+
+2. Agregamos a los miembros del equipo
+
+3. Habilitamos GitHub Pages en branch main y ruta "/(root)".
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -701,30 +820,30 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
   <tbody>
     <tr>
       <td>Fecha</td>
-      <td></td>
+      <td>01 de Abril de 2026</td>
     </tr>
     <tr>
       <td>Hora</td>
-      <td></td>
+      <td>10:00 AM</td>
     </tr>
     <tr>
       <td>Ubicación</td>
-      <td></td>
+      <td>Sesión remota (Discord / Google Meet)</td>
     </tr>
     <tr>
       <td>Preparado por</td>
-      <td>Integrantes de </td>
+      <td>Integrantes de GuardiAnts</td>
     </tr>
     <tr>
       <td>Asistentes (a la reunión de planificación)</td>
-      <td>Todos los miembros de </td>
+      <td>InAsui, genixmvp, FabricioZz15, rodriznnn</td>
     </tr>
     <tr>
       <td>
         <strong>Sprint 1 Review</strong>
       </td>
       <td>
-        .
+        Se completó exitosamente la estructura base de la Landing Page, la internacionalización (i18n) y el despliegue inicial. El reporte alcanzó la consolidación de los capítulos I al IV incluyendo diagramas C4 y arquitectura.
       </td>
     </tr>
     <tr>
@@ -732,7 +851,7 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
         <strong>Sprint 1 Retrospective</strong>
       </td>
       <td>
-        .
+        El equipo mantuvo un ritmo constante. Se identificó la necesidad de mejorar la gestión de rutas de imágenes en el reporte de Markdown para evitar enlaces rotos en futuras entregas.
       </td>
     </tr>
     <tr>
@@ -745,21 +864,27 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
         <strong>Sprint 1 Goal</strong>
       </td>
       <td>
-        .
+        Establecer la presencia digital mediante la Landing Page responsiva y completar la documentación de diseño, análisis y arquitectura de la solución GuardiAnts.
       </td>
     </tr>
     <tr>
       <td><strong>Sprint 1 Velocity</strong></td>
-      <td></td>
+      <td>28 Story Points</td>
     </tr>
     <tr>
       <td><strong>Sum of Story Points</strong></td>
-      <td></td>
+      <td>28</td>
     </tr>
   </tbody>
 </table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+*   **Scrum Master:** InAsui
+*   **Product Owner:** genixmvp
+*   **Development Team (Landing & Apps):** genixmvp, InAsui
+*   **Design & Documentation (Report Specialists):** FabricioZz15, rodriznnn
+
 #### 5.2.1.3. Sprint Backlog 1
 
 <table align="center" border="1" width="90%" style="text-align:center">
@@ -779,36 +904,43 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
        <td><b>Description</b></td>
        <td><b>Estimation(Hours)</b></td>
        <td><b>Assigned To</b></td>
-       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+       <td><b>Status</b></td>
      </tr>
      <tr>
-       <td rowspan="1">US</td>
-       <td rowspan="1"></td>
+       <td rowspan="2">US01</td>
+       <td rowspan="2">Landing Page Base</td>
        <td>T01</td>
-       <td></td>
-       <td> </td>
-       <td></td>
-       <td></td>
-       <td></td>
-    </tr>
-    </tr>
-        <tr>
-       <td rowspan="1">US</td>
-       <td rowspan="1"></td>
-       <td>T02</td>
-       <td></td>
-       <td></td>
-       <td></td>
+       <td>Landing Structure</td>
+       <td>Crear estructura base HTML/CSS y estilos responsivos.</td>
+       <td>8</td>
+       <td>genixmvp</td>
+       <td>Done</td>
     </tr>
     <tr>
-       <td rowspan="1">US</td>
-       <td rowspan="1"></td>
+       <td>T02</td>
+       <td>i18n Support</td>
+       <td>Implementar soporte multi-idioma (en/es).</td>
+       <td>4</td>
+       <td>genixmvp</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US02</td>
+       <td rowspan="2">Solution Design</td>
        <td>T03</td>
-       <td></td>
-       <td></td>
-       <td></td>
-       <td> </td>
-       <td></td>
+       <td>Analysis & Discovery</td>
+       <td>Completar Capítulos I y II (Interviews, Personas, Canvas).</td>
+       <td>10</td>
+       <td>FabricioZz15</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T04</td>
+       <td>Software Architecture</td>
+       <td>Diseñar diagramas C4, Base de Datos y Clases.</td>
+       <td>8</td>
+       <td>InAsui / rodriznnn</td>
+       <td>Done</td>
     </tr>
 </table>
 
@@ -816,16 +948,30 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
 |------------|--------|-----------|----------------|---------------------|--------------------|
-| |  |  |  |
-| |  |  |  |  |  |
-| |  |  |  |  |  |
-| |  |  |  |  |  |
-| |  |  |  |  |  |
+| guardiants-website | main | `feat:responsive` | feat: responsive view added | Improved mobile experience for landing. | Apr 22, 2026 |
+| guardiants-website | main | `feat:i18n` | feature: i18n foundation | Added JSON processors for translation. | Apr 21, 2026 |
+| guardiants-report | main | `docs:cap4` | docs(chapter4): add diagrams | Added C4, Class and DB diagrams. | Apr 19, 2026 |
+| guardiants-report | main | `docs:ux` | docs(chapter-02): add user personas | Documentation of user profiles. | Apr 18, 2026 |
+| guardiants-report | main | `docs:startup` | docs: update startup description | Detailed profile of GuardiAnts. | Apr 08, 2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+La Landing Page se encuentra funcional y accesible, cumpliendo con los estándares de diseño responsivo y multi-idioma. Se ha verificado que la navegación entre secciones y la carga de recursos (imágenes de la solución) sea correcta en dispositivos móviles y de escritorio.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Se ha completado la documentación de arquitectura en el repositorio de Report, detallando:
+*   Diagramas de Contexto, Contenedor y Componentes (C4 Model).
+*   Diagrama de Entidad-Relación para la persistencia de datos.
+*   Especificación de estilos y lineamientos de diseño (Capítulo IV).
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+El despliegue de la Landing Page se realizó utilizando GitHub Pages. Se configuraron correctamente los registros CNAME y el archivo `index.html` para asegurar la disponibilidad inmediata del sitio bajo el dominio del proyecto.
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo utilizó GitHub Projects para el seguimiento de tareas. La colaboración fue intensa en la rama `develop` antes de fusionar a `main`. Se realizaron múltiples revisiones de código (Pull Requests) para los capítulos del reporte, asegurando que la terminología técnica fuera consistente en todo el documento de GuardiAnts.
 
 ## 5.3. Validation Interviews
 
@@ -838,5 +984,16 @@ Una Style Guidelines es un conjunto de lineamientos y criterios que establecen l
 ## 5.4. Video About-the-Product
 
 # Conclusiones 
+
+-  *Conclusiones preliminares*
+    - Eficiencia en la Gestión de Versiones: La implementación del modelo GitFlow y el uso de la organización en GitHub han permitido una colaboración estructurada y sin conflictos críticos entre los miembros del equipo. La adopción de Conventional Commits ha sido fundamental para mantener un historial de cambios legible, lo que facilita la trazabilidad de cada funcionalidad desarrollada en la Landing Page y la documentación del Reporte.
+
+    - Solidez Arquitectónica: El desarrollo de los diagramas C4 (Contexto, Contenedor y Componentes) y el diseño de la base de datos han proporcionado una hoja de ruta clara para el desarrollo técnico. Esta planificación previa asegura que la plataforma GuardiAnts sea escalable y que cada integrante comprenda la interacción entre el Frontend (Web App) y el Backend (Platform) antes de iniciar la codificación pesada.
+
+    - Presencia Digital y Accesibilidad: El despliegue de la Landing Page no solo cumple con los requisitos de diseño responsivo, sino que, mediante la integración de la internacionalización (i18n), garantiza que la propuesta de valor de GuardiAnts sea accesible para una audiencia global. El uso de tecnologías estándar (HTML/CSS/JS) bajo una arquitectura limpia asegura un mantenimiento simplificado a largo plazo.
+
+    - Validación del Enfoque en el Usuario: El proceso de entrevistas y el mapeo de User Personas realizados en los primeros capítulos han validado la necesidad del mercado por una solución de monitoreo y seguridad. Estas conclusiones iniciales han permitido refinar el Product Backlog, asegurando que los siguientes Sprints se enfoquen en funcionalidades que realmente resuelvan los puntos de dolor identificados en los segmentos de objetivo.
+
+    - Compromiso con la Calidad Documental: La consolidación de un reporte técnico detallado, que incluye desde el Lean UX Canvas hasta especificaciones de diseño UI/UX, establece un estándar de calidad alto para el proyecto. Esto garantiza que cualquier stakeholder o futuro desarrollador pueda comprender la lógica de negocio y las decisiones técnicas detrás de GuardiAnts.
 # Bibliografía
 # Anexos
