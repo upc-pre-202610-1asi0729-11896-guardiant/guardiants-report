@@ -797,30 +797,51 @@ Impact Map - Segmento 2:
 
 | #Orden | User Story Id | Título | Descripción | Story Points |
 |--------|---------------|--------|------------|--------------|
-| 1 | US15 | Navegación por la landing page | Como usuario, quiero navegar por la landing page para conocer el producto. | 2 |
-| 2 | US16 | Acceso a la aplicación | Como usuario, quiero acceder a la aplicación desde la web para comenzar a usar el sistema. | 2 |
-| 3 | US17 | Registro en la plataforma | Como usuario, quiero registrarme para acceder a las funcionalidades del sistema. | 3 |
-| 4 | US01 | Visualizar ubicación en tiempo real | Como usuario, quiero ver la ubicación de mi vehículo en tiempo real para mantener control constante. | 5 |
-| 5 | US02 | Consultar estado del vehículo | Como usuario, quiero consultar el estado general de mi vehículo para entender su situación. | 3 |
-| 6 | US03 | Revisar historial de rutas | Como usuario, quiero revisar el historial de rutas para analizar recorridos. | 3 |
-| 7 | US08 | Visualizar flota completa | Como supervisor, quiero visualizar todos los vehículos en un solo panel para tener control total. | 5 |
-| 8 | US09 | Monitorear flota en tiempo real | Como supervisor, quiero monitorear vehículos en tiempo real para supervisar la operación. | 8 |
-| 9 | US10 | Detectar desvíos de ruta | Como supervisor, quiero detectar desvíos de ruta para actuar ante incidentes. | 5 |
-| 10 | US11 | Alertas de paradas prolongadas | Como supervisor, quiero recibir alertas de paradas prolongadas para identificar riesgos. | 5 |
-| 11 | US12 | Analizar comportamiento de manejo | Como supervisor, quiero analizar el comportamiento de manejo para mejorar eficiencia. | 5 |
-| 12 | US13 | Visualizar reportes operativos | Como supervisor, quiero visualizar reportes para mejorar la toma de decisiones. | 5 |
-| 13 | US04 | Configurar geocercas | Como usuario, quiero configurar geocercas para proteger mi vehículo en zonas específicas. | 5 |
-| 14 | US05 | Recibir alertas de seguridad | Como usuario, quiero recibir alertas ante eventos sospechosos para actuar rápidamente. | 5 |
-| 15 | US06 | Activar defensa automática | Como usuario, quiero que el sistema active defensa automática para proteger mi vehículo. | 8 |
-| 16 | TS21 | Autenticación de usuarios | Como developer, quiero autenticar usuarios mediante API para permitir el acceso seguro al sistema. | 5 |
-| 17 | TS14 | Obtener ubicación vía API | Como developer, quiero obtener datos de ubicación mediante API para mostrar información en tiempo real. | 5 |
-| 18 | TS07 | Registrar telemetría | Como developer, quiero registrar datos de telemetría para monitorear el vehículo. | 5 |
-| 19 | TS20 | Procesar envío de alertas | Como developer, quiero procesar alertas mediante API para notificar eventos críticos. | 5 |
-| 20 | TS18 | Cambio de idioma | Como developer, quiero permitir cambiar el idioma para mejorar la accesibilidad. | 2 |
-| 21 | TS19 | Contacto con soporte | Como usuario, quiero contactar al soporte para resolver dudas sobre el sistema. | 2 |
-| 22 | TS22 | Manejo de errores del sistema | Como developer, quiero gestionar errores para garantizar la estabilidad del sistema. | 3 |
-
-
+| 1 | US20 | Navegación por la landing page | Como visitante, deseo navegar por las secciones de la landing page (Home, About Us, How does it work, FAQs, Contact) para conocer el producto antes de registrarme. | 2 |
+| 2 | US21 | Acceder a la aplicación desde la landing page | Como visitante, deseo ingresar a la aplicación desde los botones "Login" o "Get Started" de la landing page para comenzar a usar el servicio. | 2 |
+| 3 | US24 | Ver sección "How does it work" en landing page | Como visitante, deseo ver la explicación de cómo funciona GOD's Tracker para cada segmento (Persona Natural, Empresas, Entidades Gubernamentales) para entender el valor del producto. | 2 |
+| 4 | US25 | Ver sección de preguntas frecuentes (FAQs) | Como visitante, deseo acceder a la sección de preguntas frecuentes para resolver dudas comunes sobre GOD's Tracker antes de registrarme. | 2 |
+| 5 | US23 | Contactar al equipo desde la landing page | Como visitante, deseo enviar un mensaje al equipo de soporte desde el formulario de contacto de la landing page para resolver dudas antes de suscribirme. | 2 |
+| 6 | TS43 | Cambiar idioma de la landing page | Como developer, deseo implementar el cambio de idioma (ES/EN) en la landing page para servir a usuarios en diferentes idiomas. | 2 |
+| 7 | US22 | Registrarse en la plataforma | Como visitante, deseo registrarme como nuevo usuario seleccionando mi tipo de perfil (Persona Natural, Empresa, Gobierno) para acceder a las funcionalidades correspondientes. | 3 |
+| 8 | US36 | Ver plan y estado de suscripción | Como persona natural, deseo ver mi plan actual (Básico, Pro, etc.) y el estado de mi dispositivo (Conectado/Desconectado) desde el panel lateral para saber qué funcionalidades tengo disponibles. | 3 |
+| 9 | US37 | Cerrar sesión de la aplicación | Como persona natural o supervisor, deseo cerrar sesión desde el menú lateral de la app o desde Configuración > Cuenta para proteger el acceso en dispositivos compartidos. | 2 |
+| 10 | TS41 | Autenticación de usuarios mediante API | Como developer, deseo implementar autenticación JWT para controlar el acceso a los endpoints protegidos de la plataforma. | 5 |
+| 11 | TS42 | Manejo de errores en el sistema | Como developer, deseo que el sistema gestione errores internos de forma controlada para garantizar disponibilidad y trazabilidad. | 3 |
+| 12 | US01 | Visualizar ubicación del vehículo en tiempo real | Como persona natural, deseo ver la ubicación actual de mi vehículo en el mapa del dashboard para mantener control sobre su seguridad. | 5 |
+| 13 | US02 | Consultar estado general del vehículo | Como persona natural, deseo revisar el estado general del vehículo desde la pantalla de inicio para saber si está activo, seguro y conectado. | 3 |
+| 14 | US26 | Ver resumen de alertas del día en dashboard | Como persona natural, deseo ver en el dashboard el contador de alertas del día, recorridos realizados, señal GPS y nivel de batería del dispositivo para tener un resumen rápido del estado. | 3 |
+| 15 | US35 | Buscar vehículo por nombre o placa | Como persona natural o supervisor, deseo buscar un vehículo usando la barra de búsqueda en la parte superior de la app para localizarlo rápidamente entre múltiples unidades. | 3 |
+| 16 | US03 | Revisar historial de rutas | Como persona natural, deseo consultar rutas pasadas filtrando por fecha para revisar los trayectos realizados por mi vehículo. | 3 |
+| 17 | TS39 | Obtener datos de ubicación mediante API | Como developer, deseo consultar la ubicación de un vehículo vía API para integraciones y visualizaciones externas. | 5 |
+| 18 | TS38 | Registrar evento de telemetría mediante API | Como developer, deseo registrar eventos de telemetría vía API para almacenar datos GPS/IoT del dispositivo en el Telemetry Store. | 5 |
+| 19 | US04 | Configurar geocerca | Como persona natural, deseo definir una geocerca desde la sección de configuración para recibir alertas si mi vehículo sale del perímetro. | 5 |
+| 20 | US05 | Recibir alerta de seguridad | Como persona natural, deseo recibir alertas categorizadas en la sección "Alertas de Seguridad" para reaccionar ante eventos como movimiento sospechoso o GPS manipulado. | 5 |
+| 21 | US27 | Filtrar alertas de seguridad por categoría y período | Como persona natural, deseo filtrar las alertas en la sección "Alertas de Seguridad" por tipo (Todas, No leídas, Urgentes) y período (Última hora, Hoy, 7 días, 30 días) para revisar solo las relevantes. | 3 |
+| 22 | US28 | Ver detalle de alerta de seguridad | Como persona natural, deseo ver el detalle de una alerta de seguridad (tipo, ubicación, descripción, hora) para decidir si bloquear el vehículo o ignorarla. | 3 |
+| 23 | US07 | Bloquear vehículo remotamente | Como persona natural, deseo bloquear el motor de mi vehículo desde el botón "Bloquear Vehículo" en el dashboard o desde "Acciones Rápidas" para actuar ante una emergencia. | 8 |
+| 24 | US08 | Reportar robo desde la app | Como persona natural, deseo reportar el robo de mi vehículo desde la acción rápida "Reportar robo" para activar el protocolo de emergencia de forma inmediata. | 5 |
+| 25 | US09 | Compartir ubicación del vehículo | Como persona natural, deseo compartir la ubicación en tiempo real de mi vehículo desde "Acciones Rápidas" para coordinación con terceros o autoridades. | 3 |
+| 26 | US06 | Activar defensa automática | Como persona natural, deseo que el sistema ejecute acciones automáticas ante amenazas confirmadas como activar el "Modo seguro auto" desde configuración. | 8 |
+| 27 | US30 | Configurar opciones de seguridad del dispositivo | Como persona natural, deseo activar o desactivar opciones de seguridad (movimiento sospechoso, apaga motor, modo seguro auto) desde Configuración > Seguridad para definir cómo reacciona el sistema ante amenazas. | 5 |
+| 28 | US34 | Reiniciar dispositivo IoT remotamente | Como persona natural, deseo reiniciar el dispositivo IoT vinculado a mi vehículo desde Configuración > Dispositivo para resolver problemas de conectividad sin intervención presencial. | 3 |
+| 29 | TS40 | Procesar envío de alertas mediante API | Como developer, deseo procesar y disparar alertas vía API para que el sistema de notificaciones pueda entregarlas en tiempo real. | 5 |
+| 30 | US10 | Visualizar flota completa | Como supervisor, deseo ver todos los vehículos de la flota desde el panel web para tener una visión general del estado de cada unidad. | 5 |
+| 31 | US11 | Monitorear vehículos en tiempo real | Como supervisor, deseo ver las ubicaciones actuales de todos los vehículos en un mapa para gestionar operaciones de forma eficiente. | 8 |
+| 32 | US12 | Detectar desvíos de ruta | Como supervisor, deseo recibir alertas cuando un vehículo se desvíe de la ruta asignada para tomar acción inmediata. | 5 |
+| 33 | US13 | Recibir alertas de paradas prolongadas | Como supervisor, deseo detectar paradas largas no programadas para identificar incidentes operativos o de seguridad. | 5 |
+| 34 | US18 | Configurar reglas de alerta para flota | Como supervisor, deseo definir reglas de alerta personalizadas por tipo (geocerca, velocidad, interferencia GPS) para adaptar la detección a las necesidades operativas. | 5 |
+| 35 | US16 | Gestionar vehículos de la flota | Como supervisor, deseo agregar, editar o desactivar vehículos dentro de la plataforma para mantener actualizado el inventario de la flota. | 5 |
+| 36 | US17 | Asignar dispositivo IoT a vehículo | Como supervisor, deseo asignar un dispositivo IoT a un vehículo de la flota para activar el monitoreo de telemetría. | 5 |
+| 37 | TS44 | Gestionar asignación de dispositivos IoT mediante API | Como developer, deseo implementar los endpoints de asignación y desasignación de dispositivos IoT a vehículos para gestionar el ciclo de vida de los trackers. | 5 |
+| 38 | US19 | Bloquear motor de vehículo de flota remotamente | Como supervisor, deseo enviar un comando de bloqueo de motor a cualquier unidad de la flota desde el panel web ante una emergencia confirmada. | 8 |
+| 39 | US14 | Analizar comportamiento de manejo | Como supervisor, deseo analizar el comportamiento de conducción de cada vehículo para identificar patrones riesgosos y generar reportes de hábitos. | 5 |
+| 40 | US15 | Consultar reportes operativos | Como supervisor, deseo ver reportes históricos de operaciones para tomar decisiones basadas en datos de la flota. | 5 |
+| 41 | TS45 | Consultar reportes de conducción mediante API | Como developer, deseo exponer un endpoint para consultar driving_reports por vehículo y período para que el frontend pueda renderizar los análisis de comportamiento. | 5 |
+| 42 | US29 | Gestionar configuración de notificaciones | Como persona natural, deseo activar o desactivar notificaciones (alertas de seguridad, ubicación en tiempo real, recordatorios de mantenimiento) desde la sección de Configuración para personalizar mis avisos. | 3 |
+| 43 | US31 | Editar perfil y cambiar contraseña | Como persona natural, deseo editar mi perfil (nombre, email) y cambiar mi contraseña desde la sección Configuración > Cuenta para mantener mis datos actualizados. | 3 |
+| 44 | US32 | Cambiar idioma y tema de la aplicación | Como persona natural, deseo cambiar el idioma (ES/EN) y el tema (Claro/Oscuro) desde Configuración > Otros para adaptar la app a mis preferencias. | 2 |
+| 45 | US33 | Ver información del dispositivo IoT vinculado | Como persona natural, deseo ver la información del dispositivo IoT vinculado a mi vehículo (estado, modelo, IMEI) desde Configuración > Dispositivo para verificar que está operativo. | 2 |
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
