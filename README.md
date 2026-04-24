@@ -890,14 +890,12 @@ Link del miro: https://miro.com/app/board/uXjVHd90Bvk=/?share_link_id=9194028898
 ### 4.6.2. Software Architecture Context Diagram
 
 <div align="center">
-    <img src="images/01-SystemContext.png">
     <img src="images/Context_Diagram.png">
 </div>
 
 ### 4.6.3. Software Architecture Container Diagrams
 
 <div align="center">
-    <img src="images/02-Containers.png">
     <img src="images/Container_Diagram.png">
 </div>
 
@@ -912,42 +910,36 @@ Link del miro: https://miro.com/app/board/uXjVHd90Bvk=/?share_link_id=9194028898
 #### Component Diagram Fleet
 
 <div align="center">
-    <img src="images/03-BC1-Identity.png">
     <img src="images/Fleet_BoundedContext.png">
 </div>
 
 #### Component Diagram Telemetry
 
 <div align="center">
-    <img src="images/04-BC2-Fleet.png">
     <img src="images/Telemetry_BoundedContext.png">
 </div>
 
 #### Component Diagram Alerting
 
 <div align="center">
-    <img src="images/05-BC3-Telemetry.png">
     <img src="images/Alerting_BoundedContext.png">
 </div>
 
 #### Component Diagram Billing
 
 <div align="center">
-    <img src="images/06-BC4-Alerting.png">
     <img src="images/Billing_BoundedContext.png">
 </div>
 
 #### Component Diagram Commands
 
 <div align="center">
-    <img src="images/07-BC5-Commands.png">
     <img src="images/Commands_BoundedContext.png">
 </div>
 
 #### Component Diagram Query
 
 <div align="center">
-    <img src="images/08-BC6-Query.png">
     <img src="images/Query_BoundedContext.png">
 </div>
 
