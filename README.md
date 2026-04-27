@@ -155,7 +155,12 @@ Commits del Report:
 
 # **Student Outcomes**
 
+## Student Outcome - TA1
 
+| Criterio Específico | Acciones Realizadas (TA1) | Conclusiones |
+|--------------------|--------------------------|-------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TA1**<br><br>**Poma Muñoz, Ariadna Geraldine:** Explicó la propuesta del proyecto y sus objetivos de forma clara, adaptando su lenguaje según la audiencia.<br><br>**Navarro Aldoradin, Carolina Celeste:** Comunicó avances del equipo durante reuniones, facilitando la organización y comprensión de responsabilidades.<br><br>**Lozano Quispe, Fabricio Jofred:** Expuso la estructura inicial del sistema utilizando ejemplos simples para hacer entendibles los aspectos técnicos.<br><br>**Vite Celis, Rodrigo Matias:** Presentó el flujo del proyecto de manera ordenada y promovió la participación del equipo para mejorar la claridad de ideas. | **TA1:**<br><br>El equipo logró comunicar de manera efectiva la propuesta del proyecto a diferentes audiencias. Se evidenció una adecuada adaptación del lenguaje según el nivel técnico de los oyentes, lo que permitió una comprensión clara de los objetivos y del enfoque planteado. Además, la comunicación constante entre los integrantes facilitó la organización y coordinación del trabajo. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TA1**<br><br>**Poma Muñoz, Ariadna Geraldine:** Redactó la descripción del problema y la solución propuesta de forma clara y estructurada para distintos tipos de lectores.<br><br>**Navarro Aldoradin, Carolina Celeste:** Documentó la planificación del equipo y la organización de tareas utilizando un lenguaje preciso y comprensible.<br><br>**Lozano Quispe, Fabricio Jofred:** Elaboró la documentación técnica inicial asegurando que sea entendible tanto para perfiles técnicos como no técnicos.<br><br>**Vite Celis, Rodrigo Matias:** Revisó y corrigió el documento final, mejorando la coherencia y claridad de la información presentada. | **TA1:**<br><br>El equipo logró desarrollar una comunicación escrita clara y estructurada, permitiendo documentar adecuadamente la propuesta del proyecto. El uso de un lenguaje accesible facilitó la comprensión de los objetivos y procesos, mientras que la revisión conjunta mejoró la calidad y coherencia del documento final. |
 
 # Capítulo I: Introducción
 
