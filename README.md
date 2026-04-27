@@ -65,6 +65,10 @@ https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/
 
 Commits del Report:
 
+<div align="center">
+  <img src="images/logo guardiants - COMMITS.png" width="30%">
+</div>
+
 ## CONTENIDO
 
 ### Tabla de contenido
