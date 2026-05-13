@@ -558,7 +558,7 @@ En la sesión de Big Picture Event Storming, el equipo exploró de forma visual 
 
 ### Big Picture Event Storming – Mapa General
 
-<p align="center"><img src="./images/big picture-event storming.png" width="1505" height="664"></p>
+<p align="center"><img width="1881" height="830" alt="image" src="https://github.com/user-attachments/assets/154bcfa2-2fc3-4663-8683-fc5ec8942f5f" /></p>
 
 ### Big Picture Event Storming - Leyenda de Colores
 
