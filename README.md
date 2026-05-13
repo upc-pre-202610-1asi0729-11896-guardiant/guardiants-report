@@ -2110,3 +2110,5 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 Link de la landing Page: [God's Tracker Website](https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/)
 
 Link de la app web: [God's Tracker Web App](https://godstracker.netlify.app/login)
+
+Link de los mocks api desplegados: mocks-api-guardiants.azurewebsites.net
