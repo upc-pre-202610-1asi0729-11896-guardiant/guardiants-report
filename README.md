@@ -1204,10 +1204,14 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 
 #### Segmento #1: Persona natural
 
-Como persona natural, quiero visualizar el mapa en tiempo actual 
-
+Como persona natural desde la pestaña de inicio podemos visualizar un resumen de los datos del cliente. Se aprecia 2 botones para bloquear y observar en mapa el vehiculo actual del cliente.
 <div align="center">
     <img src="images/UserFlowWeb_1.png">
+</div>
+
+Si se presiona el boton de block vehicle Aparece este submenu en el que se muestran todos los vehiculos del cliente para realizarles un bloqueo.
+<div align="center">
+    <img src="images/UserFlowWeb_1.1.png">
 </div>
 
 Como persona natural, quiero poder bloquear mi carro en caso de emergencia.
@@ -1217,9 +1221,12 @@ Como persona natural, quiero poder bloquear mi carro en caso de emergencia.
 </div>
 
 Como persona natural, quiero ver los detalles de mi vehículo 
+
 <div align="center">
     <img src="images/UserFlowWeb_3.png">
 </div>
+
+
 
 <div align="center">
     <img src="images/UserFlowWeb_4.png">
@@ -1335,6 +1342,8 @@ Link del miro: https://miro.com/app/board/uXjVHd90Bvk=/?share_link_id=9194028898
 
 ### 4.7.1. Class Diagrams
 
+
+
 <div align="center">
     <img src="images/Diagrama de clases.png">
 </div>
@@ -1342,8 +1351,27 @@ Link del miro: https://miro.com/app/board/uXjVHd90Bvk=/?share_link_id=9194028898
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
 
+En esta sección se presentan los Database Diagrams para cada bounded context. Los diagramas modelan la persistencia relacional del sistema, especificando tablas, columnas, tipos de dato, constraints (PK, FK, NOT NULL, UNIQUE) y las relaciones entre tablas con su cardinalidad. Las relaciones entre bounded contexts se materializan mediante columnas FK que referencian los IDs del contexto origen.
+
 <div align="center">
-    <img src="images/Diagrama de base de datos.png">
+    <img src="images/DatabaseDiagram.png">
+</div>
+
+
+### **Identity and Access Management**
+
+El bounded context de IAM persiste las entidades centrales de identidad y acceso. La tabla organizations actúa como raíz del sistema, siendo referenciada por prácticamente todos los demás contextos. Users centraliza las credenciales de autenticación y se vincula a organizations y roles mediante FK.
+
+<div align="center">
+    <img src="images/IamBounded_ClassDiagram.png">
+</div>
+
+### **Subscription Management**
+
+El Bounded Context de Subscription gestiona el ciclo de vida de los servicios contratados por una organización, estructurándose mediante la tabla plans que define los límites de vehículos y precios, la tabla subscriptions que vincula a la organización con un plan y un periodo de tiempo específico, y la tabla payments que registra las transacciones financieras asociadas. Este modelo asegura que el acceso a las funcionalidades del sistema esté condicionado a un plan activo y al cumplimiento de los pagos correspondientes.
+
+<div align="center">
+    <img src="images/SubscriptionBounded_ClassDiagram.png">
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
