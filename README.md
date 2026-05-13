@@ -2105,3 +2105,8 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 # Anexos
 [https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1](https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1)
+
+
+Link de la landing Page: [God's Tracker Website](https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/)
+
+Link de la app web: [God's Tracker Web App](https://godstracker.netlify.app/login)
