@@ -1112,14 +1112,6 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 #### Segmento #1: Persona natural
 
 <div align="center">
-<img width="1190" height="570" alt="image" src="https://github.com/user-attachments/assets/185041c8-cc26-44a2-afe0-1fab610d1025" />
-</div>
-
-<div align="center">
-<img width="1600" height="774" alt="image" src="https://github.com/user-attachments/assets/055a9c46-a331-4392-9533-6e236685bf02" />
-</div>
-
-<div align="center">
     <img src="images/WireframeWeb_1.png">
 </div>
 
@@ -1140,14 +1132,6 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 </div>
 
 #### Segmento #2: Empresas
-
-<div align="center">
-<img width="1190" height="570" alt="image" src="https://github.com/user-attachments/assets/185041c8-cc26-44a2-afe0-1fab610d1025" />
-</div>
-
-<div align="center">
-<img width="1600" height="848" alt="image" src="https://github.com/user-attachments/assets/0b84846b-3023-40dd-a5dc-cd4f8d712de5" />
-</div>
 
 <div align="center">
     <img src="images/WireframeWeb_6.png">
@@ -1176,6 +1160,14 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 #### Segmento #1: Persona natural
 
 <div align="center">
+<img width="1190" height="570" alt="image" src="https://github.com/user-attachments/assets/185041c8-cc26-44a2-afe0-1fab610d1025" />
+</div>
+
+<div align="center">
+<img width="1600" height="774" alt="image" src="https://github.com/user-attachments/assets/055a9c46-a331-4392-9533-6e236685bf02" />
+</div>
+
+<div align="center">
     <img src="images/MockupWeb_1.png">
 </div>
 
@@ -1196,6 +1188,15 @@ Esta sección permite gestionar los ajustes del dispositivo y preferencias del u
 </div>
 
 #### Segmento #2: Empresas
+
+
+<div align="center">
+<img width="1190" height="570" alt="image" src="https://github.com/user-attachments/assets/185041c8-cc26-44a2-afe0-1fab610d1025" />
+</div>
+
+<div align="center">
+<img width="1600" height="848" alt="image" src="https://github.com/user-attachments/assets/0b84846b-3023-40dd-a5dc-cd4f8d712de5" />
+</div>
 
 <div align="center">
     <img src="images/MockupWeb_6.png">
