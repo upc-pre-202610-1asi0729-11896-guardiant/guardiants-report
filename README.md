@@ -685,54 +685,100 @@ Requirements Management, Product UX/UI Design, Software Development,
 Software Deployment, Software Documentation, respetando las restricciones
 indicadas sobre productos de software y herramientas que se pueden utilizar.-->
 
-- ***Project Management***: 
-  -**WhatsApp**: Herramienta de comunicación por chats. División de tareas por encuestas en el chat grupal y status de avance diarios. Link de descarga: [https://www.whatsapp.com/](https://www.whatsapp.com/) 
-- ***Requirements Management***:
-  - **UXPressia**: Creación de artefactos de needfinding como User Personas, User Journey Maps y Empathy Maps para comprender las necesidades del usuario. Link de navegador: [https://uxpressia.com/]([https://www.whatsapp.com/](https://www.whatsapp.com/) )
-  - **Herramienta Miro**: Desarrollo de Event Storming (Big Picture y Process Level) para el modelado de procesos y definición del alcance del sistema. Link de navegador: [https://miro.com/](https://miro.com/)
-  - **Gherkin**: Definición de criterios de aceptación y escenarios de prueba en formato Given–When–Then. Link del plugin: [https://plugins.jetbrains.com/plugin/9164-gherkin](https://plugins.jetbrains.com/plugin/9164-gherkin)
-- ***Product UX/UI Design***:
-  - **Figma**: Diseño de wireframes y mockups de la interfaz del sistema, tanto la landing page como el resto del frontend. Link de navegador [https://www.figma.com/](https://www.figma.com/)
-- ***Software Development***:
-  - **Visual Studio Code**: IDE principal para la programación del sistema.
-  - **GitHub** Control de versiones y trabajo en colaboración mediante repositorios, commits y branches.
-  -**Angular Lenguaje**: TypeScript Desarrollo de la interfaz web interactiva del sistema.
-  - **Tecnología Backend Node.js**: Desarrollo de la lógica del servidor, manejo de peticiones HTTP y conexión con la base de datos.
-  - **Base de Datos**: Microsoft SQL Server Propósito: Almacenamiento y gestión de la información del sistema. 
-  - **WebStorm**: Entorno de desarrollo especializado para aplicaciones JavaScript y TypeScript. IDE complementario o alternativo a VSC.
-- ***Software Deployment***:
-  - **Github Pages**: Despliegue de la solución (incluyendo la landing page) de nuestro sistema (GoldCheck).
-- ***Software Documentation***:
-  - Markdown: Documentación técnica del proyecto, desde el reporte hasta las User Stories, licensias y otros artifactos.
-  - **Structurizer**: Elaboración de diagramas de arquitectura del sistema utilizando el modelo C4 (contexto, contenedores, componentes y código).
-  - **Visual Studio Code**: Documentación específico del código en los comentarios de cada archivo del repositorio.
 
+**Project Management**
 
-### 5.1.2. Source Code Management
-Para el control de versiones y la gestión centralizada del código de nuestro proyecto **GuardiAnts**, el equipo utiliza **GitHub** como plataforma principal. GitHub nos permite alojar el código fuente del Landing Page, la Web App y la plataforma técnica, manteniendo un registro histórico de cambios que garantiza la trazabilidad y facilita la colaboración estructurada durante todo el ciclo de desarrollo.
+| Producto | Propósito | Ruta |
+|----------|-----------|------|
+| GitHub Projects | Planificación y seguimiento de issues, user stories y tareas del equipo mediante tableros Kanban. | https://github.com |
+| WhatsApp | Comunicación rápida, coordinación de tareas mediante encuestas en el chat grupal y seguimiento de avances diarios. | https://www.whatsapp.com/ |
+| Discord | Reuniones de equipo en voz y video para sesiones de planificación, revisión y retrospectiva de sprints. | https://discord.com/ |
 
-Para este fin, hemos constituido la organización **GuardiAnts-Organization**, la cual aloja los siguientes repositorios estratégicos:
+---
 
-| Solución | Nombre del repositorio | Enlace |
-| :--- | :--- | :--- |
-| **Report** | guardiants-report | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-report) |
-| **Landing Page** | guardiants-website | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-website) |
-| **Front-End (Web App)** | guardiants-webapp | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-webapp) |
-| **Back-End (Platform)** | guardiants-platform | [Link](https://github.com/upc-pre-202610-1asi0729-11896-guardiant/guardiants-platform) |
+**Requirements Management**
+
+| Producto | Propósito | Ruta |
+|----------|-----------|------|
+| GitHub | Gestión de requerimientos mediante Issues y documentación versionada del proyecto. | https://github.com |
+| UXPressia | Creación de artefactos de needfinding: User Personas, User Journey Maps y Empathy Maps para comprender las necesidades de los segmentos objetivo. | https://uxpressia.com/ |
+| Miro | Desarrollo de Event Storming (Big Picture y Design Level) para el modelado de procesos y definición del dominio del sistema. | https://miro.com/ |
+| Gherkin | Definición de criterios de aceptación y escenarios de prueba en formato Given–When–Then. | https://plugins.jetbrains.com/plugin/9164-gherkin |
+| Markdown | Documentación estructurada de requerimientos dentro del repositorio del proyecto. | Integrado en GitHub |
+
+---
+
+**Product UX/UI Design**
+
+| Producto | Propósito | Ruta |
+|----------|-----------|------|
+| Figma | Diseño de wireframes, mockups y prototipos interactivos de la interfaz, tanto para la Landing Page como para la Web Application. | https://www.figma.com/ |
+| LucidChart | Elaboración de wireflows, user flows y diagramas de arquitectura complementarios. | https://www.lucidchart.com/ |
+
+---
+
+**Software Development**
+
+| Producto | Propósito | Ruta |
+|----------|-----------|------|
+| Visual Studio Code | IDE principal para la programación del frontend (Landing Page y Web Application). | https://code.visualstudio.com/ |
+| WebStorm | Entorno de desarrollo especializado para aplicaciones JavaScript y TypeScript. IDE complementario a VSCode. | https://www.jetbrains.com/webstorm/ |
+| IntelliJ IDEA | IDE para el desarrollo del backend con Spring Boot y Java. | https://www.jetbrains.com/idea/ |
+| Angular Framework | Desarrollo de la Web Application interactiva con TypeScript, HTML5 y CSS3. | https://angular.io/ |
+| Spring Boot | Desarrollo de la lógica del servidor y la RESTful API bajo arquitectura orientada a servicios. | https://spring.io/projects/spring-boot |
+| HTML5 / CSS3 / JavaScript | Tecnologías base para el desarrollo del Landing Page estático. | https://developer.mozilla.org/ |
+| GitHub | Control de versiones y trabajo colaborativo mediante repositorios, commits y branches. | https://github.com |
+
+---
+
+**Software Deployment**
+
+| Producto | Propósito | Ruta |
+|----------|-----------|------|
+| GitHub Pages | Despliegue del Landing Page estático de GuardiAnts directamente desde el repositorio. | https://pages.github.com/ |
+
+---
+
+**Software Documentation**
+
+| Producto | Propósito | Ruta |
+|----------|-----------|------|
+| Structurizr | Elaboración de diagramas de arquitectura de software utilizando el modelo C4 (contexto, contenedor, componentes). | https://structurizr.com/ |
+| OpenAPI / Swagger | Documentación de los endpoints del RESTful API de GuardiAnts. | https://swagger.io/ |
+| Markdown | Documentación técnica del proyecto, desde el reporte hasta las user stories, licencias y otros artefactos. | Integrado en GitHub |
 
 ---
 
 ### Estrategia de Trabajo: GitFlow
 
-Nuestro equipo ha implementado el modelo de trabajo **GitFlow**, basado en la metodología de Vincent Driessen. Bajo este esquema, mantenemos dos ramas permanentes: **main** (que contiene código estable y listo para producción) y **develop** (utilizada como rama de integración para el desarrollo activo).
+El equipo ha implementado el modelo de trabajo **GitFlow**, propuesto por Vincent Driessen. Bajo este esquema se mantienen dos ramas permanentes: **main** (código estable y listo para producción) y **develop** (rama de integración para el desarrollo activo).
 
-*   **Feature Branches:** Cada funcionalidad o sección del informe se trabaja en ramas aisladas bajo la nomenclatura `feature/chapter-#-description` (ej. `feature/chapter-ii-interviews`) o `feature/chapter-#-content` si abarca un capítulo completo.
-*   **Release Branches:** Al aproximarse una entrega, se genera una rama `release` desde `develop` para ajustes finales y corrección de errores menores, bajo la convención `release/vX.Y.Z` aplicando **Semantic Versioning**.
-*   **Integración Final:** Una vez validada, la rama de lanzamiento se fusiona tanto en `main` como en `develop` para asegurar la consistencia del proyecto.
-*   **Hotfixes:** Las correcciones críticas y urgentes en producción se resuelven mediante ramas `hotfix/vX.Y.Z` que se integran directamente tras su validación.
+- **Feature Branches:** Cada funcionalidad se trabaja en ramas aisladas bajo la nomenclatura `feature/<nombre-de-sección>` (ej. `feature/gps-monitoring`, `feature/alert-system`).
+- **Release Branches:** Al aproximarse una entrega, se genera una rama `release/vX.Y.Z` desde `develop` para ajustes finales, aplicando **Semantic Versioning**.
+- **Integración Final:** Una vez validada, la rama de lanzamiento se fusiona tanto en `main` como en `develop`.
+- **Hotfixes:** Las correcciones críticas se resuelven mediante ramas `hotfix/vX.Y.Z` integradas directamente tras su validación.
 
-Para mantener un historial de cambios legible y profesional, todos los mensajes de confirmación se rigen por los estándares de **Conventional Commits**, asegurando un flujo de trabajo impecable para el ecosistema de **GuardiAnts**.
+---
 
+### Conventional Commits
+
+Todos los mensajes de commit siguen la especificación de **Conventional Commits** para mantener un historial de cambios legible y profesional.
+
+**Tipos utilizados:**
+- `feat:` incorporación de nuevas funcionalidades
+- `fix:` corrección de errores
+- `docs:` modificaciones en la documentación
+- `style:` cambios de formato o estilo sin impacto en la lógica
+- `refactor:` mejoras internas sin añadir funcionalidades
+- `test:` creación o modificación de pruebas
+- `chore:` tareas de configuración o mantenimiento
+
+**Ejemplos aplicados en el proyecto:**
+- `feat(monitoring): add real-time GPS tracking endpoint`
+- `fix(alerts): correct timestamp offset in security alerts`
+- `docs(chapter-02): add interview analysis and user personas`
+- `chore(deps): upgrade Angular Material to latest version`
+- `docs(chapter-04): add C4 context and container diagrams`
 
 ### Evidencias de Repositorios
 
@@ -810,153 +856,81 @@ Todos los identificadores (archivos, clases, IDs, variables, etc.) deben estar e
 
 #### 5.2.1.1. Sprint Planning 1
 
-<table>
-  <caption>Sprint #1</caption>
-  <thead>
-    <tr>
-      <th colspan="2">Sprint Planning Backlog</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Fecha</td>
-      <td>01 de Abril de 2026</td>
-    </tr>
-    <tr>
-      <td>Hora</td>
-      <td>10:00 AM</td>
-    </tr>
-    <tr>
-      <td>Ubicación</td>
-      <td>Sesión remota (Discord / Google Meet)</td>
-    </tr>
-    <tr>
-      <td>Preparado por</td>
-      <td>Integrantes de GuardiAnts</td>
-    </tr>
-    <tr>
-      <td>Asistentes (a la reunión de planificación)</td>
-      <td>InAsui, genixmvp, FabricioZz15, rodriznnn</td>
-    </tr>
-    <tr>
-      <td>
-        <strong>Sprint 1 Review</strong>
-      </td>
-      <td>
-        Se completó exitosamente la estructura base de la Landing Page, la internacionalización (i18n) y el despliegue inicial. El reporte alcanzó la consolidación de los capítulos I al IV incluyendo diagramas C4 y arquitectura.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>Sprint 1 Retrospective</strong>
-      </td>
-      <td>
-        El equipo mantuvo un ritmo constante. Se identificó la necesidad de mejorar la gestión de rutas de imágenes en el reporte de Markdown para evitar enlaces rotos en futuras entregas.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <strong>Sprint Goal and User Stories</strong>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong>Sprint 1 Goal</strong>
-      </td>
-      <td>
-        Establecer la presencia digital mediante la Landing Page responsiva y completar la documentación de diseño, análisis y arquitectura de la solución GuardiAnts.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Sprint 1 Velocity</strong></td>
-      <td>28 Story Points</td>
-    </tr>
-    <tr>
-      <td><strong>Sum of Story Points</strong></td>
-      <td>28</td>
-    </tr>
-  </tbody>
-</table>
+En esta sección se documenta el Sprint Planning Meeting del Sprint 1, en el que el equipo GuardiAnts estableció el objetivo del sprint, definió el alcance de trabajo y distribuyó las tareas entre los integrantes para lograr la primera versión desplegada de la Landing Page de GOD's Tracker.
+
+| Sprint # | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-04-01 |
+| Time | 10:00 AM |
+| Location | Reunión virtual vía Discord |
+| Prepared By | Poma Muñoz, Ariadna Geraldine |
+| Attendees (to planning meeting) | Poma Muñoz, Ariadna Geraldine / Navarro Aldoradin, Carolina Celeste / Lozano Quispe, Fabricio Jofred / Vite Celis, Rodrigo Matias |
+| Sprint 1 – 1 Review Summary | Al ser el primer sprint, no existe sprint anterior que revisar. El equipo partió de los artefactos definidos en los capítulos I al IV: User Stories, Product Backlog, Style Guidelines, Wireframes y Mockups del Landing Page. |
+| Sprint 1 – 1 Retrospective Summary | Al ser el primer sprint, no existe retrospectiva previa. El equipo acordó mantener comunicación continua vía Discord, realizar revisiones de código mediante Pull Requests y respetar las convenciones de código definidas en la sección 5.1.3. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Our focus is on delivering a fully deployed Landing Page that communicates GuardiAnts' value proposition to potential users. We believe it delivers the first professional touchpoint of the GOD's Tracker product to vehicle owners and fleet managers. This will be confirmed when visitors can navigate all sections of the Landing Page, understand the product's features, view the pricing plans, and access the registration call-to-action from a deployed public URL. |
+| Sprint 1 Velocity | 28 Story Points |
+| Sum of Story Points | 28 Story Points |
+
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-*   **Scrum Master:** InAsui
-*   **Product Owner:** genixmvp
-*   **Development Team (Landing & Apps):** genixmvp, InAsui
-*   **Design & Documentation (Report Specialists):** FabricioZz15, rodriznnn
+Para este Sprint 1, el alcance se centra íntegramente en el desarrollo y despliegue de la Landing Page. Los aspectos identificados corresponden a las secciones funcionales del sitio estático, organizadas de manera que cada integrante asuma liderazgo sobre un aspecto mientras colabora en los demás.
+
+| Team Member (Last Name, First Name) | GitHub Username | Hero & Navbar (L/C) | Features & About (L/C) | Pricing & Testimonials (L/C) | Contact & Footer (L/C) | Deployment & i18n (L/C) |
+|---|---|---|---|---|---|---|
+| Poma Muñoz, Ariadna Geraldine | InAsui | L | C | C | C | C |
+| Navarro Aldoradin, Carolina Celeste | genixmvp | C | L | C | C | L |
+| Lozano Quispe, Fabricio Jofred | FabricioZz15 | C | C | L | C | C |
+| Vite Celis, Rodrigo Matias | rodriznnn | C | C | C | L | C |
+
 
 #### 5.2.1.3. Sprint Backlog 1
 
-<table align="center" border="1" width="90%" style="text-align:center">
-    <tr>
-       <td colspan="1"><b>Sprint #</b></td>
-       <td colspan="7"><b>Sprint 1</b></td>
-     </tr>
-     <tr>
-       <td colspan="2"><b>User Story</b></td>
-       <td colspan="6"><b>Work-Item / Task</b></td>
-     </tr>
-     <tr>
-       <td><b>Id</b></td>
-       <td><b>Title</b></td>
-       <td><b>Id</b></td>
-       <td><b>Title</b></td>
-       <td><b>Description</b></td>
-       <td><b>Estimation(Hours)</b></td>
-       <td><b>Assigned To</b></td>
-       <td><b>Status</b></td>
-     </tr>
-     <tr>
-       <td rowspan="2">US01</td>
-       <td rowspan="2">Landing Page Base</td>
-       <td>T01</td>
-       <td>Landing Structure</td>
-       <td>Crear estructura base HTML/CSS y estilos responsivos.</td>
-       <td>8</td>
-       <td>genixmvp</td>
-       <td>Done</td>
-    </tr>
-    <tr>
-       <td>T02</td>
-       <td>i18n Support</td>
-       <td>Implementar soporte multi-idioma (en/es).</td>
-       <td>4</td>
-       <td>genixmvp</td>
-       <td>Done</td>
-    </tr>
-    <tr>
-       <td rowspan="2">US02</td>
-       <td rowspan="2">Solution Design</td>
-       <td>T03</td>
-       <td>Analysis & Discovery</td>
-       <td>Completar Capítulos I y II (Interviews, Personas, Canvas).</td>
-       <td>10</td>
-       <td>FabricioZz15</td>
-       <td>Done</td>
-    </tr>
-    <tr>
-       <td>T04</td>
-       <td>Software Architecture</td>
-       <td>Diseñar diagramas C4, Base de Datos y Clases.</td>
-       <td>8</td>
-       <td>InAsui / rodriznnn</td>
-       <td>Done</td>
-    </tr>
-</table>
+El objetivo principal del Sprint 1 es desplegar la primera versión funcional de la Landing Page de GuardiAnts (GOD's Tracker), que comunique la propuesta de valor a los segmentos objetivo e incluya los call-to-action correspondientes hacia la Web Application.
+
+| Sprint # | Sprint 1 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US01 | Visualizar landing page | T01 | Estructura HTML base del Landing Page | Crear el archivo `index.html` con la estructura semántica completa (header, main, sections, footer) | 3 | Poma Muñoz, Ariadna | Done |
+| US01 | Visualizar landing page | T02 | Estilos globales y variables CSS | Definir variables de color, tipografía y espaciado en `:root` siguiendo el Design System de GuardiAnts | 2 | Poma Muñoz, Ariadna | Done |
+| US01 | Visualizar landing page | T03 | Sección Hero y barra de navegación | Implementar el hero section con headline, subheadline, CTAs y la navbar con menú responsive | 4 | Poma Muñoz, Ariadna | Done |
+| US02 | Visualizar características del producto | T04 | Sección Features del sistema GPS/IoT | Implementar la sección de características clave: monitoreo en tiempo real, alertas, bloqueo remoto | 3 | Navarro Aldoradin, Carolina | Done |
+| US03 | Visualizar información del equipo | T05 | Sección About / Equipo GuardiAnts | Implementar la sección que presenta al startup con descripción de misión y visión | 3 | Navarro Aldoradin, Carolina | Done |
+| US04 | Ver planes y precios | T06 | Sección Pricing con planes de suscripción | Implementar tarjetas comparativas de planes para personas naturales y empresas con CTAs | 4 | Lozano Quispe, Fabricio | Done |
+| US05 | Visualizar testimonios | T07 | Sección Testimonials | Implementar cuadrícula de testimonios de los entrevistados del proceso de needfinding | 3 | Lozano Quispe, Fabricio | Done |
+| US06 | Contactar desde la landing page | T08 | Sección Contact / Footer | Implementar el formulario de contacto y el footer con enlaces legales y redes sociales | 3 | Vite Celis, Rodrigo | Done |
+| US01 | Visualizar landing page | T09 | Responsividad completa (Mobile & Desktop) | Aplicar media queries para correcta visualización en dispositivos móviles y desktop | 3 | Vite Celis, Rodrigo | Done |
+| US01 | Visualizar landing page | T10 | Soporte multi-idioma (i18n en/es) | Implementar soporte de internacionalización con archivos JSON de traducción | 4 | Navarro Aldoradin, Carolina | Done |
+| US01 | Visualizar landing page | T11 | Despliegue en GitHub Pages | Configurar GitHub Pages sobre la rama `main`, verificar despliegue y validar todos los assets | 2 | Navarro Aldoradin, Carolina | Done |
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+Durante el Sprint 1, el equipo trabajó de forma colaborativa en el repositorio de la Landing Page, aplicando GitFlow con ramas por feature y mensajes de commit siguiendo Conventional Commits. A continuación se presentan los commits más relevantes relacionados con la implementación.
+
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
-|------------|--------|-----------|----------------|---------------------|--------------------|
-| guardiants-website | main | `feat:responsive` | feat: responsive view added | Improved mobile experience for landing. | Apr 22, 2026 |
-| guardiants-website | main | `feat:i18n` | feature: i18n foundation | Added JSON processors for translation. | Apr 21, 2026 |
-| guardiants-report | main | `docs:cap4` | docs(chapter4): add diagrams | Added C4, Class and DB diagrams. | Apr 19, 2026 |
-| guardiants-report | main | `docs:ux` | docs(chapter-02): add user personas | Documentation of user profiles. | Apr 18, 2026 |
-| guardiants-report | main | `docs:startup` | docs: update startup description | Detailed profile of GuardiAnts. | Apr 08, 2026 |
+|---|---|---|---|---|---|
+| guardiants-website | main | `feat:responsive` | feat: responsive view added | Improved mobile experience for landing page sections. | Apr 22, 2026 |
+| guardiants-website | main | `feat:i18n` | feature: i18n foundation | Added JSON processors for en/es translation support. | Apr 21, 2026 |
+| guardiants-website | main | `feat:hero` | feat(hero): add hero section with CTA buttons | Hero section with GPS tracking value proposition. | Apr 19, 2026 |
+| guardiants-website | main | `feat:pricing` | feat(pricing): add subscription plans section | Plans for persona natural and empresa segments. | Apr 18, 2026 |
+| guardiants-report | main | `docs:cap4` | docs(chapter4): add diagrams | Added C4 context, container and component diagrams. | Apr 19, 2026 |
+| guardiants-report | main | `docs:ux` | docs(chapter-02): add user personas | Documentation of user profiles for both segments. | Apr 18, 2026 |
+| guardiants-report | main | `docs:startup` | docs: update startup description | Detailed profile of GuardiAnts startup and product. | Apr 08, 2026 |
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-La Landing Page se encuentra funcional y accesible, cumpliendo con los estándares de diseño responsivo y multi-idioma. Se ha verificado que la navegación entre secciones y la carga de recursos (imágenes de la solución) sea correcta en dispositivos móviles y de escritorio.
+Al concluir el Sprint 1, el equipo logró desplegar la primera versión funcional de la Landing Page de GuardiAnts en un entorno público accesible mediante GitHub Pages. La página presenta la propuesta de valor del producto GOD's Tracker de forma clara y estructurada, cubriendo todas las secciones planificadas: Hero, Navbar, Features, About, Pricing, Testimonials, Contact y Footer. La experiencia es consistente tanto en desktop como en dispositivos móviles, e incluye soporte para cambio de idioma (español/inglés).
+
+<div align="center">
+<img width="1056" height="3856" alt="image" src="https://github.com/user-attachments/assets/0ce05803-f19d-4f65-b0e6-1017466b2a57" />
+</div>
+
+Video de navegación del Sprint 1:
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -967,19 +941,377 @@ Se ha completado la documentación de arquitectura en el repositorio de Report, 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-El despliegue de la Landing Page se realizó utilizando GitHub Pages. Se configuraron correctamente los registros CNAME y el archivo `index.html` para asegurar la disponibilidad inmediata del sitio bajo el dominio del proyecto.
+El despliegue de la Landing Page se llevó a cabo mediante **GitHub Pages**. Los pasos realizados fueron:
+
+1. Se creó el repositorio `guardiants-website` en la organización del proyecto.
+2. Se desarrolló el sitio estático con HTML5, CSS3 y JavaScript con soporte i18n.
+3. Se configuró GitHub Pages en **Settings > Pages**, seleccionando la rama `main` y la ruta `/(root)`.
+4. GitHub Pages publicó automáticamente el sitio al detectar el `index.html` en la raíz del repositorio.
+5. Se verificó el correcto funcionamiento de todos los enlaces, imágenes y el selector de idioma en el entorno de producción.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Durante este Sprint, el equipo utilizó GitHub Projects para el seguimiento de tareas. La colaboración fue intensa en la rama `develop` antes de fusionar a `main`. Se realizaron múltiples revisiones de código (Pull Requests) para los capítulos del reporte, asegurando que la terminología técnica fuera consistente en todo el documento de GuardiAnts.
+Durante el Sprint 1, los cuatro integrantes del equipo GuardiAnts participaron activamente en la implementación de la Landing Page. Cada miembro lideró el aspecto asignado según la Leadership-and-Collaboration Matrix, realizando commits desde sus cuentas de GitHub hacia sus ramas feature correspondientes, y luego integrando mediante Pull Requests hacia `main`.
+
+Se aplicó GitFlow de forma consistente: se crearon ramas con la convención `feature/<nombre-de-sección>` (ej. `feature/hero-section`, `feature/pricing`, `feature/i18n`) y se realizó el merge únicamente tras revisión del código por al menos un integrante del equipo.
+
+## 5.2.2. Sprint 2 
+
+#### 5.2.2.1. Sprint Planning 2
+
+En esta sección se documenta el Sprint Planning Meeting del Sprint 2, en el que el equipo GuardiAnts definió el objetivo de implementar las funcionalidades esenciales de la plataforma web, incluyendo autenticación, monitoreo GPS en tiempo real, alertas de seguridad, gestión de vehículos y configuración del sistema.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-05-13 |
+| Time | 12:00 PM |
+| Location | Reunión virtual vía Discord / Google Meet |
+| Prepared By | Poma Muñoz, Ariadna Geraldine |
+| Attendees (to planning meeting) | Poma Muñoz, Ariadna Geraldine / Navarro Aldoradin, Carolina Celeste / Lozano Quispe, Fabricio Jofred / Vite Celis, Rodrigo Matias |
+| Sprint 1 Review Summary | Durante la revisión del Sprint 1, se validó correctamente la estructura inicial de la Landing Page, la documentación del proyecto y la integración de internacionalización (i18n). La Landing Page fue desplegada exitosamente en GitHub Pages con las secciones Hero, Features, Pricing, Testimonials, Contact y Footer. Los capítulos I al IV del reporte quedaron consolidados con los artefactos de diseño y arquitectura. |
+| Sprint 1 Retrospective Summary | En la retrospectiva del Sprint 1, el equipo identificó como puntos fuertes la buena comunicación y coordinación. Como áreas de mejora, se señaló la necesidad de mejorar la gestión del tiempo en la documentación y la resolución de rutas de imágenes en el reporte de Markdown para evitar enlaces rotos. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Our focus is on developing and deploying the essential functionalities of the GuardiAnts platform related to user authentication, real-time GPS monitoring, vehicle asset management, security alerts, route history and system configuration. We believe it delivers a solid foundation for intelligent vehicle control and allows users to supervise their assets securely and centrally. This will be confirmed when users can register and log in successfully, visualize the location and status of their vehicles, receive security alerts, consult relevant system information, and use the main functionalities from the web platform. |
+| Sprint 2 Velocity | 35 Story Points |
+| Sum of Story Points | 35 Story Points |
+
+---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para este Sprint 2, el alcance se centra en el desarrollo de la Web Application (guardiants-webapp) con las funcionalidades core del sistema de monitoreo GOD's Tracker.
+
+| Team Member (Last Name, First Name) | GitHub Username | Autenticación (Login / Register) | Monitoreo GPS en tiempo real | Alertas de seguridad | Historial de rutas | Configuración del sistema |
+|---|---|---|---|---|---|---|
+| Poma Muñoz, Ariadna Geraldine | InAsui | C | C | L | L | C |
+| Navarro Aldoradin, Carolina Celeste | genixmvp | C | L | C | C | C |
+| Lozano Quispe, Fabricio Jofred | FabricioZz15 | C | L | C | C | L |
+| Vite Celis, Rodrigo Matias | rodriznnn | L | C | C | C | C |
+
+---
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es implementar las funcionalidades esenciales de la Web Application de GuardiAnts, cubriendo los procesos core del sistema de monitoreo vehicular inteligente GOD's Tracker.
+
+| Sprint # | Sprint 2 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US07 | Registro de usuario | T12 | Formulario de registro y validación | Implementar vista de registro con campos de nombre, email, contraseña y tipo de cuenta (personal/empresa) | 4 | Vite Celis, Rodrigo | In Process |
+| US08 | Inicio de sesión | T13 | Vista de login y autenticación | Implementar vista de login con validación de credenciales y redirección al dashboard | 3 | Vite Celis, Rodrigo | In Process |
+| US09 | Dashboard de monitoreo GPS | T14 | Mapa de monitoreo en tiempo real | Integrar mapa interactivo con visualización de ubicación de vehículos en tiempo real mediante API de mapas | 8 | Navarro Aldoradin, Carolina / Lozano Quispe, Fabricio | To-do |
+| US09 | Dashboard de monitoreo GPS | T15 | Panel de estado del vehículo | Mostrar indicadores de estado: conectado/desconectado, velocidad actual, batería del dispositivo | 4 | Navarro Aldoradin, Carolina | To-do |
+| US10 | Gestión de alertas de seguridad | T16 | Lista de alertas con clasificación | Implementar vista de alertas con clasificación por tipo (movimiento sospechoso, jammer detectado, geocerca) y severidad | 5 | Poma Muñoz, Ariadna | To-do |
+| US10 | Gestión de alertas de seguridad | T17 | Notificaciones push en tiempo real | Configurar sistema de notificaciones para alertas críticas de seguridad en la plataforma web | 4 | Poma Muñoz, Ariadna | To-do |
+| US11 | Historial de rutas | T18 | Vista de historial de recorridos | Implementar vista de historial de rutas con filtros por fecha, vehículo y tipo de evento | 4 | Poma Muñoz, Ariadna | To-do |
+| US12 | Configuración del sistema | T19 | Panel de configuración de cuenta y vehículo | Implementar vistas de configuración de perfil de usuario, datos del vehículo y preferencias de alertas | 3 | Lozano Quispe, Fabricio | To-do |
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo inició el desarrollo de la Web Application (guardiants-webapp) utilizando Angular Framework. A continuación se presentan los commits más relevantes realizados durante este sprint.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited On (Date) |
+|---|---|---|---|---|---|
+| guardiants-webapp | develop | `feat:auth` | feat(auth): add login and register views | Authentication views with form validation implemented. | May 10, 2026 |
+| guardiants-webapp | develop | `feat:dashboard` | feat(dashboard): add vehicle monitoring dashboard | Base dashboard structure with map container added. | May 11, 2026 |
+| guardiants-webapp | develop | `feat:routing` | feat(routing): configure angular routing module | Routes for dashboard, alerts, history and settings configured. | May 09, 2026 |
+| guardiants-webapp | develop | `chore:setup` | chore: initial Angular project setup | Angular project scaffolded with Angular Material components. | May 07, 2026 |
+| guardiants-platform | develop | `feat:api` | feat(api): initial Spring Boot project setup | Base project with package structure by bounded context. | May 08, 2026 |
+| guardiants-website | main | `fix:nav` | fix(nav): correct mobile navigation menu | Fixed hamburger menu display on small devices. | May 05, 2026 |
+
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Al concluir el Sprint 2, el equipo logró implementar la estructura base de la Web Application de GuardiAnts con las vistas principales del sistema de monitoreo GOD's Tracker. Se completaron las vistas de autenticación (login y registro) y se avanzó en el desarrollo del dashboard de monitoreo GPS. La aplicación está estructurada siguiendo la arquitectura de componentes de Angular con Material Design como sistema de diseño.
+
+Las principales vistas implementadas durante este sprint incluyen:
+
+- **Vista de Login:** Formulario de inicio de sesión con validación de campos, integrado con el flujo de navegación hacia el dashboard principal.
+- **Vista de Registro:** Formulario de creación de cuenta con selección de tipo de usuario (persona natural / empresa).
+- **Dashboard de Monitoreo:** Estructura base del panel principal con mapa interactivo para visualización GPS y panel de estado de vehículos.
+- **Vista de Alertas de Seguridad:** Lista de alertas clasificadas por tipo y severidad (en proceso de integración con el backend).
+<div align="center">
+<img width="1190" height="570" alt="image" src="https://github.com/user-attachments/assets/3b31b62b-d473-4c35-81df-e9f93b9f8e7f" />
+</div>
+
+<div align="center">
+<img width="1288" height="811" alt="image" src="https://github.com/user-attachments/assets/64f4c1ca-b89f-4217-969f-ff155bbed726" />
+</div>
+
+<div align="center">
+<img width="767" height="515" alt="image" src="https://github.com/user-attachments/assets/300a4c36-ef3e-41b2-ab24-1d2ee8e32953" />
+</div>
+
+<div align="center">
+<img width="810" height="551" alt="image" src="https://github.com/user-attachments/assets/2d699827-c21e-4aae-b4a7-f2e4163f06b9" />
+</div>
+
+**Video de navegación del Sprint 2:**
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo inició el desarrollo del RESTful API en el repositorio `guardiants-platform` utilizando Spring Boot. Se definió la estructura base del proyecto con los bounded contexts principales y se configuró Swagger/OpenAPI para la documentación de endpoints.
+
+Los bounded contexts definidos en este sprint son:
+- **Identity & Access:** Gestión de autenticación y autorización de usuarios.
+- **Vehicle Monitoring:** Endpoints para recepción y consulta de datos GPS en tiempo real.
+- **Alert Management:** Endpoints para generación y consulta de alertas de seguridad.
+- **Fleet Management:** Gestión de vehículos registrados por usuario o empresa.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizaron las siguientes actividades de despliegue:
+
+- Se actualizó la Landing Page con una nueva versión que incluye correcciones de navegación móvil y mejoras en la sección de testimonios.
+- Se inició la configuración del entorno de despliegue para la Web Application (guardiants-webapp) en preparación para el Sprint 3.
+- Se configuró el proyecto Spring Boot (guardiants-platform) con las dependencias necesarias para el despliegue en un entorno cloud.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, los cuatro integrantes del equipo participaron activamente en el desarrollo de la Web Application y el backend de GuardiAnts. Se mantuvo el uso de GitFlow con ramas feature por funcionalidad y la integración mediante Pull Requests revisados por al menos un compañero antes del merge a `develop`.
+
+La comunicación del equipo se realizó a través de Discord para reuniones de sincronización diaria y WhatsApp para coordinación rápida de tareas. Se utilizó GitHub Projects como tablero de seguimiento de tareas del sprint.
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
+**Primer segmento: Persona natural**
+
+A continuación, se presentan las preguntas dirigidas al segmento de personas naturales, compuesto por individuos que buscan proteger su vehículo, conocer su ubicación en tiempo real y recibir alertas básicas de seguridad mediante una solución tecnológica como GOD’s Tracker.
+
+**Preguntas principales**
+1.	¿Te preocupa que puedan robar tu vehículo? ¿Por qué? 
+2.	¿Has tenido alguna experiencia con robo o intento de robo? 
+3.	¿Qué haces actualmente para proteger tu vehículo? 
+4.	¿Te gustaría saber en todo momento dónde está tu vehículo? 
+5.	¿Qué tan útil sería para ti recibir alertas en tu celular si algo pasa con tu vehículo? 
+6.	¿Qué tipo de alertas te gustaría recibir? (movimiento, robo, ubicación, etc.) 
+7.	¿Qué tan fácil te gustaría que sea usar una app para ver tu vehículo? 
+8.	¿Confiarías en un sistema que usa GPS para rastrear tu vehículo? ¿Por qué? 
+9.	¿Qué es lo más importante para ti en un sistema de seguridad vehicular?
+10.	¿Qué te haría sentir más seguro usando este tipo de producto? 
+11.	¿Usarías una aplicación para controlar tu vehículo desde el celular? 
+12.	¿Recomendarías un sistema así a otras personas?
+
+**Preguntas complementarias**
+
+13.	¿Qué edad tienes?
+14.	¿A qué te dedicas?
+15.	¿Qué tipo de vehículo tienes?
+16.	¿En qué distrito vives o sueles moverte más? 
+17.	¿Qué tanto usas aplicaciones en tu celular? 
+18.	¿Prefieres usar más el celular o la computadora?
+
+**Segundo segmento: Empresas**
+
+A continuación, se presentan las preguntas dirigidas al segmento empresarial, compuesto por empresas de transporte, logística y otros sectores que requieren monitoreo, control y análisis avanzado de sus flotas vehiculares.
+
+**Preguntas principales**
+1.	¿Les preocupa la seguridad de sus vehículos o carga? 
+2.	¿Han tenido problemas de robos o pérdidas? 
+3.	¿Cómo hacen actualmente para saber dónde están sus vehículos? 
+4.	¿Les gustaría ver la ubicación de todos sus vehículos en tiempo real? 
+5.	¿Qué tan útil sería recibir alertas si un vehículo sale de ruta o se detiene mucho tiempo? 
+6.	¿Qué tipo de información necesitan sobre sus vehículos (ubicación, rutas, paradas)? 
+7.	¿Les ayudaría tener reportes automáticos sobre el uso de sus vehículos? 
+8.	¿Qué tan fácil debería ser usar una plataforma de monitoreo para su equipo? 
+9.	¿Qué es lo más importante en un sistema como este? 
+10.	¿Usarían una sola plataforma para controlar toda su flota? 
+11.	¿Qué problemas les gustaría solucionar con una herramienta como esta? 
+12.	¿Recomendarían este tipo de solución a otras empresas?
+    
+**Preguntas complementarias**
+
+13.	¿A qué se dedica su empresa? 
+14.	¿Cuántos vehículos manejan aproximadamente? 
+15.	¿Cuál es su cargo dentro de la empresa? 
+16.	¿En qué ciudades o zonas operan? 
+17.	¿Qué herramientas digitales usan actualmente? 
+18.	¿Qué tan seguido usan computadoras o apps para el trabajo? 
 
 ### 5.3.2. Registro de Entrevistas
+## Segmento 1: Persona natural
+
+<div align="center">
+
+| Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|--------------|------------------------|--------------------------|--------------------------|
+| 1 | **Nombre:** Luis Lopez <br> **Edad:** 25 <br> **Distrito:** San Borja <br> **Link:** [link ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 0:00 - 3:58|  El entrevistado, trabajador en logística y usuario frecuente de su vehículo, muestra alta preocupación por el robo, reforzada por un intento previo.<br>Considera que las medidas actuales como la alarma y precaución son insuficientes, evidenciando la necesidad de una solución más completa.<br>Valora el monitoreo en tiempo real y las alertas inmediatas (movimiento sospechoso, intento de robo y ubicación), alineándose con la propuesta de GuardiAnts.<br>Prioriza una app simple, rápida y fácil de usar desde el celular, destacando la precisión y confiabilidad del GPS como factores clave.<br>Su perfil digital y disposición a recomendar la solución refuerzan el potencial de adopción del producto. | <p align="center"><img src="https://github.com/user-attachments/assets/3b1bf596-5fa1-444b-b4b2-4f658100e740" width="300"></p> |
+| 2 | **Nombre:** Juana Quispe <br> **Edad:** 47 <br> **Distrito:** El Agustino <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 3:59 - 7:51| La entrevistada, comerciante independiente, evidencia una alta preocupación por la inseguridad vehicular debido al contexto actual de delincuencia en Lima y a experiencias previas de intento de robo y manipulación de su vehículo mientras realizaba sus actividades laborales.<br>Actualmente no cuenta con una medida de seguridad para su auto, pero considera que es insuficiente, ya que busca mayor control y seguimiento constante. Destaca la necesidad de conocer la ubicación de su vehículo en todo momento y recibir alertas inmediatas ante cualquier movimiento sospechoso.<br>Valora especialmente funciones como notificaciones en tiempo real, ubicación precisa y alertas por movimiento, priorizando un sistema que le permita reaccionar rápidamente ante posibles incidentes.<br>Busca una aplicación simple, fácil de usar y accesible desde el celular, que le brinde mayor tranquilidad y control. Además, muestra disposición a adoptar este tipo de tecnología y recomendarla a su entorno si demuestra ser confiable y efectiva. | <p align="center"><img src="https://github.com/user-attachments/assets/1cb0319f-426e-4d72-b3ff-bbfe19d0c88e" width="300"></p> |
+| 3 | **Nombre:** Enrique Castillo <br> **Edad:** 22 <br> **Distrito:** Magdalena <br> **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 7:52 - 12:53| Enrique, un estudiante de 22 años que se mueve por varias zonas de Lima, considera que sí usaría una app de seguridad vehicular sencilla que le permita ver la ubicación de su auto en tiempo real y recibir alertas ante situaciones sospechosas, especialmente por experiencias cercanas de intento de robo. | <p align="center"><img src="https://github.com/user-attachments/assets/183f2f5b-dc91-49ad-b63d-acee24af1438" width="300"></p> |
+
+</div>
+
+### Resumen de entrevistas segmento #1
+
+A partir de las entrevistas, se observa que todos los participantes comparten una fuerte preocupación por la inseguridad vehicular en Lima, influenciada tanto por el contexto actual como por experiencias cercanas o personales de intento de robo. Aunque algunos cuentan con medidas básicas como alarmas o simplemente toman precauciones, coinciden en que estas resultan insuficientes frente a los riesgos actuales, lo que genera una sensación constante de vulnerabilidad. En general, valoran mucho la posibilidad de monitorear su vehículo en tiempo real, recibir alertas inmediatas ante movimientos sospechosos y contar con una ubicación precisa, ya que esto les permitiría reaccionar rápidamente ante cualquier incidente. Además, destacan la importancia de que la solución sea fácil de usar, accesible desde el celular y confiable en términos de funcionamiento. Más allá de las funcionalidades, lo que realmente buscan es sentirse más tranquilos, tener mayor control sobre su vehículo y reducir la incertidumbre en su día a día, mostrando también una buena disposición a adoptar y recomendar una herramienta que cumpla con estas expectativas.
+
+## Segmento 2: Empresas
+
+<div align="center">
+
+| Nº Entrevista | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|--------------|------------------------|--------------------------|--------------------------|
+| 1 | **Nombre:** Jesus Alvites <br> **Edad:** 25 <br> **Distrito:** <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 12:54 - 18:30| El entrevistado, con experiencia como supervisor de tráfico, confirma que la inseguridad en rutas es frecuente, especialmente en zonas como el Callao o durante paradas donde ocurren robos de carga.<br>Destaca que el monitoreo en tiempo real mediante GPS es indispensable, aunque presenta limitaciones como pérdida de conexión y falta de integración de información.<br>Valora alertas de desvíos o detenciones, acceso a historiales y comunicación con conductores.<br>Busca una solución simple, accesible desde el celular y centralizada que mejore el control, la toma de decisiones y reduzca riesgos operativos. | <p align="center"><img src="https://github.com/user-attachments/assets/1730e97a-50ab-4394-8428-e1933c7a8fe1" width="600"></p> |
+| 2 | **Nombre:** Matias Diaz <br> **Edad:** 25 <br> **Distrito:** San Juan de Lurigancho <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 18:31 - 22:48| Matias Diaz, quien se desempeña como supervisor de seguridad en una empresa de distribución, destaca que su rol se centra en la prevención de riesgos y el cumplimiento de protocolos durante el traslado de vehículos y carga. Señala que la inseguridad en rutas de Lima Metropolitana es constante, especialmente en zonas de alto riesgo, donde ha presenciado robos y pérdidas operativas.<br>Utiliza herramientas como GPS, radios y reportes manuales, pero considera que estas no son suficientes, ya que requieren complementar información de varias fuentes. Por ello, enfatiza la necesidad de un sistema más completo que muestre la ubicación y el nivel de riesgo de las zonas.<br>Valora especialmente funciones como monitoreo en tiempo real, alertas por desvíos, paradas prolongadas, exceso de velocidad y acceso a historiales de rutas para identificar patrones de riesgo.<br>Busca una plataforma centralizada, rápida y confiable, que le permita reaccionar de inmediato ante emergencias, mejorar el control operativo y reducir tanto riesgos de seguridad como pérdidas económicas en la empresa. | <p align="center"><img src="https://github.com/user-attachments/assets/99b6cbe6-25da-44cd-b540-f0eca42d50c4" width="600"></p> |
+| 3 | **Nombre:** Juan Velasquez <br> **Edad:** 25 <br> **Distrito:** <br>  **Link:** [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/IQB1t_JXO08-ToO-FehysAJ_Afw6wmSxswLWOmdzimUAfKc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sQzaON) <br> Minutos: 22:49 - 27:48| Juan revela una necesidad crítica de seguridad y visibilidad operativa, ya que actualmente depende de métodos manuales e ineficientes como llamadas y WhatsApp para gestionar su flota en un entorno de alto riesgo por robos y desvíos. La implementación de un sistema de telemetría se percibe como una inversión estratégica para obtener paz mental mediante el monitoreo en tiempo real y alertas automáticas, buscando no solo proteger el patrimonio y la carga, sino también optimizar costos de combustible y tiempos de entrega a través de una plataforma centralizada y extremadamente sencilla de usar. El interés principal no radica en la tecnología por sí misma, sino en su capacidad de transformar la incertidumbre actual en un control total que garantice la rentabilidad y la profesionalización del servicio frente al cliente. | <p align="center"><img src="https://github.com/user-attachments/assets/d7cb4ad5-a771-4f21-880c-fc4bbc068698" width="600"></p> |
+
+
+</div>
+
+### Resumen de entrevistas segmento #2
+
+A partir de las entrevistas, se puede ver que todos los participantes trabajan en entornos donde la inseguridad en rutas es un problema constante, especialmente por robos y desvíos que afectan directamente sus operaciones. Actualmente dependen de herramientas básicas como GPS, llamadas o WhatsApp, lo que hace que el seguimiento de los vehículos sea poco eficiente y muy manual, generando incertidumbre y dificultando la toma de decisiones rápidas. En general, coinciden en que necesitan tener mayor control y visibilidad en tiempo real, valorando mucho funciones como alertas automáticas ante situaciones sospechosas y el acceso a historiales de rutas para entender mejor lo que ocurre. También buscan una solución que sea simple, accesible desde el celular y que centralice toda la información en un solo lugar. Más allá de la tecnología, lo que realmente esperan es poder trabajar con mayor tranquilidad, reducir riesgos y mejorar la eficiencia de sus operaciones.
 
 ### 5.3.3. Evaluaciones según heurísticas
+**UX Heuristics & Principles Evaluation**
+*Usability – Inclusive Design – Information Architecture*
+
+| Campo | Detalle |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source – 1ASI0729 |
+| **SECCIÓN** | NRC 11896 |
+| **PROFESORES** | Bautista Ubillús, Efraín Ricardo; Flores Moroco, Juan Antonio; Mori Paiva, Hugo Allan; Robles Fernández, Iván; Velásquez Núñez, Ángel Augusto |
+| **AUDITOR** | GuardiAnts – Equipo GOD's Tracker |
+| **CLIENTE(S)** | Luis Lopez, Juana Quispe, Enrique Castillo, Jesus Alvites, Matias Diaz, Juan Velasquez |
+
+---
+
+**SITE o APP A EVALUAR:** GOD's Tracker – Landing Page y Web Application de GuardiAnts
+
+---
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un nuevo usuario (persona natural o empresa)
+2. Inicio de sesión en la plataforma
+3. Visualización de la ubicación del vehículo en el mapa de monitoreo en tiempo real
+4. Recepción y consulta de alertas de seguridad
+5. Configuración de geocercas y zonas de monitoreo
+6. Revisión del historial de rutas
+7. Configuración del perfil y datos del vehículo
+8. Navegación general del Landing Page
+9. Selección de un plan de suscripción desde el Landing Page
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con sistemas de bloqueo remoto del motor
+2. Gestión de múltiples conductores por vehículo
+3. Exportación de reportes en PDF para gerencia
+4. Módulo de administración de usuarios (back-office)
+
+---
+
+**ESCALA DE SEVERIDAD:**
+
+| Nivel | Descripción |
+|:---:|---|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser corregido a menos que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar. Se le debe asignar prioridad baja para el siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo y se le debe asignar prioridad alta. |
+| 4 | Problema muy grave: impide al usuario continuar usando la herramienta. Es imperativo corregirlo antes del lanzamiento. |
+
+---
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de Severidad | Heurística / Principio violado |
+|:---:|---|:---:|---|
+| 1 | El menú hamburguesa en la versión móvil del Landing Page no es fácilmente identificable por usuarios con menor familiaridad digital. | 2 | Usability: Consistencia y estándares |
+| 2 | No existe un tutorial de inicio o guía interactiva para nuevos usuarios al ingresar por primera vez a la Web Application. | 3 | Usability: Ayuda y documentación |
+| 3 | Las alertas de seguridad en pantallas pequeñas tienen iconos demasiado pequeños, dificultando su lectura rápida. | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 4 | El botón de call-to-action en la sección Hero del Landing Page no contrasta suficientemente con el fondo en modo claro. | 2 | Usability: Visibilidad del estado del sistema |
+| 5 | Las geocercas configuradas por el usuario no se muestran visualmente sobre el mapa del dashboard de monitoreo. | 3 | Usability: Control y libertad del usuario |
+| 6 | No existe un filtro de alertas por vehículo o conductor específico; el usuario debe revisar manualmente la lista completa. | 3 | Usability: Control y libertad del usuario |
+| 7 | Algunas imágenes del Landing Page no cuentan con atributo `alt` descriptivo para lectores de pantalla. | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 8 | La sección de características en la versión móvil presenta bloques de texto extensos sin jerarquía visual clara. | 2 | Information Architecture: Is it usable? |
+| 9 | No se indica el período de prueba gratuita en la sección de pricing, generando incertidumbre en usuarios que no quieren comprometerse sin probar el servicio. | 2 | Information Architecture: Is it findable? |
+| 10 | El proceso de configuración del primer vehículo no tiene indicación de cuántos pasos quedan (ausencia de stepper o barra de progreso). | 3 | Usability: Visibilidad del estado del sistema |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+---
+
+**PROBLEMA #1:** El menú hamburguesa en mobile no es fácilmente identificable
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Consistencia y estándares
+
+**Problema:** Durante la sesión de validación, Juana Quispe (47 años, segmento persona natural) tuvo dificultades para identificar el menú de navegación en su dispositivo móvil. El ícono utilizado no fue reconocido de inmediato como menú de navegación, lo que generó fricción en los primeros segundos de interacción con el Landing Page.
+
+**Recomendación:** Usar el ícono estándar de tres líneas horizontales (≡) ampliamente reconocido, y añadir una etiqueta de texto "Menú" debajo del ícono para usuarios con menor experiencia digital. Adicionalmente, considerar que el menú se mantenga fijo (sticky) durante el scroll para mejorar la accesibilidad permanente a la navegación.
+
+---
+
+**PROBLEMA #2:** Ausencia de tutorial de inicio o guía interactiva para nuevos usuarios
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Ayuda y documentación
+
+**Problema:** Enrique Castillo y Jesus Alvites coincidieron en que al ingresar por primera vez a la Web Application no existía ningún elemento que los orientara sobre cómo comenzar a usar el sistema: cómo agregar un vehículo, cómo configurar alertas o cómo interpretar el mapa de monitoreo. Esto generó exploración no guiada e incrementó el tiempo para completar tareas básicas.
+
+**Recomendación:** Implementar un flujo de onboarding con pasos guiados (stepper interactivo o tooltips de bienvenida) que oriente al usuario nuevo en las primeras acciones clave: agregar vehículo → configurar geocerca → activar alertas. Este flujo debe poder omitirse para usuarios que ya conocen la plataforma.
+
+---
+
+**PROBLEMA #3:** Iconos de alertas demasiado pequeños en pantallas móviles
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Flexibilidad y eficiencia de uso
+
+**Problema:** Juana Quispe indicó que en su celular los iconos de clasificación de alertas (movimiento sospechoso, jammer detectado, geocerca) son difíciles de distinguir a primera vista. La falta de tamaño adecuado reduce la velocidad de lectura en situaciones de emergencia, que son precisamente los momentos en que el usuario más necesita responder rápido.
+
+**Recomendación:** Aumentar el tamaño de los iconos de alertas en la vista móvil a un mínimo de 24x24px con etiqueta de texto descriptiva visible. Aplicar diferenciación por color además del ícono para reforzar la clasificación por tipo y severidad.
+
+---
+
+**PROBLEMA #5:** Las geocercas no se muestran visualmente sobre el mapa del dashboard
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Control y libertad del usuario
+
+**Problema:** Matias Diaz, supervisor de seguridad, señaló que configuró una geocerca en la sección de ajustes pero no pudo verla superpuesta sobre el mapa de monitoreo del dashboard. Esto genera incertidumbre sobre si la configuración fue guardada correctamente y limita el control visual del usuario sobre las zonas definidas.
+
+**Recomendación:** Mostrar las geocercas configuradas como polígonos o círculos superpuestos directamente sobre el mapa del dashboard de monitoreo, con opción de editar o eliminar desde el propio mapa. Añadir un indicador visual que confirme que la geocerca está activa.
+
+---
+
+**PROBLEMA #7:** Imágenes sin texto alternativo en el Landing Page
+
+**Severidad:** 3
+
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
+
+**Problema:** Varias imágenes del Landing Page, incluyendo íconos de características y la imagen del producto en la sección Hero, no cuentan con atributos `alt` descriptivos. Esto impide que usuarios que dependen de lectores de pantalla accedan al contenido de forma equivalente, vulnerando los principios de diseño inclusivo y los estándares de accesibilidad WCAG 2.1.
+
+**Recomendación:** Revisar todas las imágenes del Landing Page y la Web Application para agregar atributos `alt` con descripciones significativas. Las imágenes decorativas deben incluir `alt=""` para que los lectores de pantalla las ignoren. Incorporar esta práctica como parte del checklist de revisión de código en cada sprint.
+
+---
+
+**PROBLEMA #10:** Ausencia de barra de progreso en la configuración del primer vehículo
+
+**Severidad:** 3
+
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:** Juan Velasquez, al intentar configurar su primer vehículo en la plataforma, no encontró ningún indicador de cuántos pasos restaban para completar el proceso. La ausencia de un stepper o barra de progreso generó incertidumbre sobre si el proceso era corto o extenso, afectando la decisión de continuarlo.
+
+**Recomendación:** Implementar un componente stepper visible (ej. "Paso 2 de 3: Datos del vehículo") en el flujo de configuración inicial. El stepper debe mostrar claramente los pasos completados, el actual y los pendientes, reduciendo la incertidumbre y aumentando la tasa de finalización del onboarding.
 
 ## 5.4. Video About-the-Product
 
