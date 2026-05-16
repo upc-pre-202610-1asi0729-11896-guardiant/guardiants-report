@@ -34,7 +34,7 @@
 | U202412903  | Lozano Quispe, Fabricio Jofred      |
 | U202414356  | Vite Celis, Rodrigo Matias          |
 
-<div style="font-weight: bold;"> Abril, 2026</div>
+<div style="font-weight: bold;"> Junio, 2026</div>
 
 </div>
 
@@ -46,7 +46,6 @@
 | 0.1    | 07/04/26 | Navarro Aldoradin, Carolina Celeste | Desarrollo de la Estructura del informe|
 | 0.1    | 07/04/26 | Lozano Quispe, Fabricio Jofred | Desarrollar de la estructura del informe |
 | 0.1    | 07/04/26 | Vite Celis, Rodrigo Matias | Desarrollo de la Estructura del informe|
-
 
 
 ## Project Report Collaboration Insights
@@ -1786,6 +1785,24 @@ Durante el Sprint 2, los cuatro integrantes del equipo participaron activamente 
 
 La comunicación del equipo se realizó a través de Discord para reuniones de sincronización diaria y WhatsApp para coordinación rápida de tareas. Se utilizó GitHub Projects como tablero de seguimiento de tareas del sprint.
 
+#### 5.2.3. Sprint 3 
+
+### 5.2.3.1. Sprint Planning 3. 
+
+### 5.2.3.2. Aspect Leaders and Collaborators. 
+
+### 5.2.3.3. Sprint Backlog 3. 
+
+### 5.2.3.4. Development Evidence for Sprint Review. 
+
+### 5.2.3.5. Execution Evidence for Sprint Review. 
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review. 
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review. 
+
+### 5.2.3.8. Team Collaboration Insights during Sprint.
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -2058,4 +2075,11 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 *   **Mozilla Contributors.** (2024). *MDN Web Docs: HTML, CSS and JavaScript guides*. Recuperado de [https://developer.mozilla.org/](https://developer.mozilla.org/)
 
 # Anexos
-[https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1](https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1)
+
+- **Web Application (Frontend):**
+- **Landing Page:** [https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/](https://upc-pre-202610-1asi0729-11896-guardiant.github.io/guardiants-website/)
+- **JSON Server (Mock API):**
+- **Web Application Source:**
+- **Backend Platform Source:**
+- **Entrevistas de Segmentos:**
+- **Figma** [https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1](https://www.figma.com/design/BcC9KfySVs24zbhSwAFPmY/wireframe?node-id=0-1&t=hWPZs22fqyjzSmab-1)
