@@ -163,9 +163,6 @@ Durante el Sprint 1 se realizó la elaboración colaborativa del informe del pro
 - [Anexos](#anexos)
 
 
-
-# **Student Outcomes**
-
 # **Student Outcomes**
 
 ## Student Outcome - TA1
